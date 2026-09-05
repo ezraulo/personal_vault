@@ -39,13 +39,31 @@ Drive, not Desktop & Documents Folders. From the manifest, that's:
   `package-lock.json` + `node_modules/`, `skills-lock.json`, `system.json`,
   `diagnostics.log`, `network_stability.log`, `2026-08-24-053930-setup.txt`
 
-**The open question that sizes everything else:** was "Desktop & Documents Folders" sync on?
-Weak evidence says no — `~/Documents` contained `com~apple~CloudDocs` and
-`com~apple~CloudDocs 2` as *subdirectories*, which is not how that folder looks when it is
-itself the sync target. If sync was off, the whole Desktop and Documents tree
-(`Obsidian Vault`, `FileRecover Project`, `Recovered Files`, `Lenovo Desktop`,
-`Documents - may - 1`, `bruno`, `MuseScore4`, `RsyncUIcopy-07-16-2026:22:49`) sits in the same
-position as the home-root files.
+**Desktop & Documents Folders sync — unresolved conflict (2026-09-05).**
+
+August states the toggle was ON before the deletion. The log evidence points the other way:
+
+- With D&D sync on, macOS creates `Desktop` and `Documents` *inside* the iCloud container.
+  The pre-deletion listing of `~/Library/Mobile Documents/com~apple~CloudDocs/`
+  (log line 58831, 701 entries) contains neither. It has `Desktop - 0$Smacannoy`,
+  `DEVICE IDS`, `docs`, `Downloads` — but no `Desktop` and no `Documents`.
+- Post-deletion, `~/Desktop` and `~/Documents` were real directories
+  (`drwxrwx--- 2 … 64`), not redirects.
+
+**Resolve it with one check:** open iCloud Drive on iCloud.com. Are there `Desktop` and
+`Documents` folders at the top level?
+
+- Yes -> sync was on, that content is server-side, and it is the bulk of the loss recovered.
+- No -> the toggle may have been set but the container never materialised on this machine
+  (this home was built by the 2026-08-20 migration); Desktop and Documents were local-only.
+
+A reconciliation in which both are true: if sync was on earlier and later switched off, macOS
+moves the cloud copies out to local folders and **leaves the server-side `Desktop`/`Documents`
+in place**. The web would still hold them. Worth looking for specifically.
+
+Either way the top action is the same — **check Recently Deleted first**. If sync was live,
+the `rm -rf` hit synced folders with the daemon running, so deletions could have propagated
+during the ~9 minutes before the keychain died. That is what the 30-day bin would hold.
 
 Other places copies may exist, worth a pass: git remotes; Dropbox / Google Drive / OneDrive
 30-day server-side trash; IMAP mail, which re-downloads.
@@ -187,3 +205,25 @@ cover `~/Library`. There is no file-level inventory of Desktop, Documents or Dow
 | `shared-2-CnGcyoGR.pdf` | failed print-to-PDF of a claude.ai share page — captured the JS bundle, not the conversation. No value. |
 
 These exist only on the damaged machine. Copy them to the external drive too.
+
+---
+
+## 8. "Root-owned mystery files" — what was checked
+
+August raised files appearing at home root with unexplained origin. Findings, 2026-09-05:
+
+- **No root-owned entries exist anywhere in the pre-deletion home listings.** Everything was
+  `august staff`. The only root-owned files in the home now are `.lesshst` and
+  `anthropic_ip_fix.sh`, both created 2026-09-05 by August's own `sudo` use.
+- **`/Users/Shared/Relocated Items/`** (root:wheel, 2026-08-20 08:32) **survived the deletion**
+  — it sits outside the home. This is the genuine mechanism by which root-owned files appear
+  unexplained: macOS parks files it cannot place during migration or OS upgrade there.
+  Contents here are only OS ssh config defaults (`ssh.system_default/`), no user data.
+- The mechanism has clearly fired repeatedly on this machine's lineage. Related artifacts in
+  the manifests: `Desktop/iCloud_Recovered`, `Documents/Recovered Files`,
+  `Documents/FileRecover Project`, `Downloads/Drive/Recovered dropbox`, and
+  `Relocated Items/Previously Relocated Items 6` and `7` nested inside `Drive MB`.
+
+**Open:** which files August means is not yet identified — candidates are the 37 Ares GDPR
+PDFs and the 29 `SCAN*.JPG` at home root. Origin tracing is possible from the manifests once
+the target is named.
