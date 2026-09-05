@@ -52,6 +52,59 @@ Other places copies may exist, worth a pass: git remotes; Dropbox / Google Drive
 
 ---
 
+## 2a. Re-signing into iCloud — why it is safe, and the one gate
+
+**Verified on 2026-09-05, machine still signed out:**
+
+```
+~/Library/Application Support/CloudDocs/   ->  No such file or directory   (bird session db)
+~/Library/Mobile Documents/                ->  No such file or directory
+com.apple.bird among Daemon Containers     ->  absent (14 containers, none is bird)
+MobileMeAccounts domain                    ->  does not exist
+ckksctl                                    ->  "no account"
+otctl                                      ->  "User is not signed into iCloud"
+```
+
+`bird` propagates a deletion because its local database holds a record for an item and sees
+that record's target vanish. With no database there is no record, so no delete can be
+generated. On sign-in the client bootstraps from the server and pulls down. Sync is
+bidirectional and, with an empty local slate, the server wins.
+
+**The exception:** "Desktop & Documents Folders" is not plain sync — enabling it *merges* the
+current local tree into the cloud container. Leave it off until a verified off-device copy
+exists. Not until iCloud Drive "looks right" — until a copy exists.
+
+**Running clock:** anything pushed server-side in the ~9 minutes between the delete (≈21:44)
+and the sign-out (≈21:53) sits in Recently Deleted until ≈2026-10-04. Three separate bins:
+iCloud Drive, Photos, Notes. Checking them is also the server-side confirmation of the above —
+if they hold none of the lost Desktop/Documents content, nothing propagated.
+
+**Off-device copy without needing USB space:** privacy.apple.com -> Request a copy of your
+data. Server-side archives delivered as download links; this Mac's sync state is not involved.
+
+---
+
+## 2b. Local metadata — what it can and cannot do
+
+Content blocks are unrecoverable (Apple Silicon, hardware encryption, TRIM). **Metadata
+recovery is not undelete.** What it buys is a file-level checklist, which is precisely what is
+missing — there is no file-level inventory of Desktop, Documents or Downloads. That turns
+"unknown loss" into targeted re-acquisition: re-clone from git remotes, re-request the Ares
+documents from source, re-download what is re-downloadable.
+
+| Lead | Status |
+|---|---|
+| `/System/Volumes/Data/.fseventsd` | **Live.** Path-level create/delete event log. Needs sudo. Best remaining lead. |
+| `QuarantineEventsV2` | Dead. 33 events, earliest 2026-09-04 21:16 — rebuilt after the loss. |
+| Spotlight index, Data volume | Dead. Was in an error state before the loss. |
+| `otctl` / `ckksctl` | Not applicable. Octagon = device-trust circle; CKKS = keychain sync. Neither indexes file records. |
+| `brctl` | Unusable until sign-in; fails on both Full Disk Access and no-account. |
+
+**No reason to stay powered on.** The CloudDocs db is already gone and deleted-but-open file
+handles were checked at ~0 GB. `.fseventsd` survives reboot.
+
+---
+
 ## 3. Current state — nothing has been restored
 
 `~` is 39 GB, which reads like progress. It isn't:
