@@ -119,6 +119,51 @@ mostly ephemeral dev dirs (`kube`, `meta`, `system`, `vm`, `virtualization`, `en
 **Caveat:** this matches on *filename*, not content or hash. A same-named file in iCloud is a
 strong lead, not proof of identity. Verify size/date on the ones that matter.
 
+### Reading the numbers (they lie on two different axes)
+
+| Set | Meaning | Status |
+|---|---|---|
+| 108 | the pre-deletion home-root manifest | all deleted locally |
+| 87 | of those, a same-named copy exists in iCloud | **recoverable** |
+| 21 | of those, no copy found anywhere | **lost** |
+| 513 | files at iCloud Drive **root**, mtime May 13 14:53 | **never lost** |
+
+Within the 87: 37 Ares + 29 SCAN + 21 other. That inner 21 is arithmetic coincidence and is
+*not* the 21 lost files.
+
+**58** was a separate measurement — distinct `SCAN00xx.JPG` names *anywhere* in iCloud, a
+superset of the 29 that were at home root. It does not belong to the 21+87 split.
+
+**Recoverable when:** nothing is recoverable locally — the files are gone from disk and fsevents
+yields names only, never content. The 87 are downloadable from iCloud.com **now**, without
+re-login; re-login only changes the access route, not what exists. The 513 need no recovery.
+
+**Storage after re-login:** unchanged at ~423.8 GB. The 87 are already counted inside it;
+recovery copies data down rather than adding it. Only Desktop & Documents sync uploading local
+files would increase the total — which is why that stays off until last.
+
+### Were the May-13 files "resurrected"? No — demonstrated
+
+Across all 513 during the fsevents window (Sep 3 - Sep 5):
+
+```
+Created events:            0
+touched, metadata only:  511
+```
+
+Their events cluster at Sep 4 20:33, 20:34, 20:47, 20:52, 21:48, 21:49 — matching August's own
+`chmod -Rv ug+rwx`, `chflags -Rv nohidden` and `dot_clean` runs against the CloudDocs container.
+Permission and xattr changes on files that already existed. Always there, not hidden, never
+created or moved during the window. What changed is that `ls -le` enumerated the container root,
+where 746 loose items make individual files easy to miss in Finder.
+
+### Do NOT normalise xattrs/permissions on that set
+
+An earlier draft of this plan suggested `xattr -c -r` and `chmod -R` over the 513 files as
+hygiene. **Retracted.** Recursive permission/flag operations against the live iCloud container
+are exactly the activity that preceded the loss. The xattrs are inert: they do not hide files,
+do not affect sync, and the fsevents evidence shows they caused nothing.
+
 ---
 
 ## Goal 4 — Local backup of cloud files onto USB
