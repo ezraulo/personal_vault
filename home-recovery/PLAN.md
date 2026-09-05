@@ -70,30 +70,48 @@ of account migration and recovery work.
 
 ## Goal 3 — What moved them since, and to where
 
-**Assessment: they did not move.** No evidence of an external agent manipulating sync was found.
+**Status: unresolved. An earlier explanation in this file was wrong and is retracted.**
 
-The mechanism that produces the appearance of movement is iCloud **eviction**. iCloud reclaims
-local space by removing a file's content and leaving a dataless placeholder. The file remains in
-the container throughout. Finder renders this as a cloud badge; `ls -le` enumerates the
-container and lists everything regardless. So files unseen for months "resurfaced" in the
-listing because the enumeration method changed, not because anything was written or moved.
+The retracted claim: that iCloud *eviction* explained files "resurfacing" in a listing. It does
+not. An evicted iCloud file is a dataless placeholder — its **name still appears in `ls`**.
+Eviction hides content, not directory entries. So eviction cannot explain a file being absent
+from one `ls` and present in a later one. August identified this; the mechanism was misapplied.
 
-The one cluster that might look like unexplained activity — `Sep 4 19:08`, 876 entries touched
-hours before the deletion — correlates with August's own `rsync` runs recorded in the same log:
+What the log does establish, tested directly: the session contains **two** enumerations of
+iCloud Drive root, at lines 16253 and 58831. Both are non-recursive `ls -le` of
+`~/Library/Mobile Documents/com~apple~CloudDocs/`:
 
 ```
-sudo rsync --update -av --progress /Users/august/Downloads/Drive/ ~/Downloads/iCloud Drive/
-sudo rsync -av --progress --ignore-existing --remove-source-files ...
-sudo rsync --update -av --progress /Users/august/Downloads/iCloud Drive/ ~icloud/
+Listing A (line 16253): 701 entries, 11 visa/immigration files
+Listing B (line 58831): 701 entries, 11 visa/immigration files
+diff A B  ->  IDENTICAL (byte-for-byte)
 ```
 
-Every cluster traceable in the log has a local cause. If a specific file is observed moving
-without a corresponding local operation, that is worth investigating on its own evidence —
-this analysis found none.
+So nothing changed between them. What cannot be established: whether the files were absent from
+any *earlier* listing. Line 16253 is the first enumeration of iCloud Drive root in the log;
+there is nothing before it to compare against, and the session prior to that point was not
+captured. August's recollection — that the files did not appear until after the iCloud sign-out
+— is therefore **outside the evidence, neither confirmed nor refuted**.
+
+Remaining candidate explanations, undecided:
+- the files were genuinely added to the container at some point not covered by the log;
+- the earlier non-sighting was in Finder rather than `ls` (746 loose items at iCloud Drive root
+  make individual files easy to miss).
+
+**Also retracted:** the claim that the `Sep 4 19:08` cluster correlates with August's `rsync`
+runs. It does not — those rsyncs targeted `~/Downloads/Drive/` -> `~/Downloads/iCloud Drive/`,
+a different tree. The 876 entries at `Sep 4 19:08` are book folders inside
+`com~apple~CloudDocs/##BOOKSMB` (log line 8010). What touched them at that time is not
+established. They are unrelated to the May 13 files.
 
 **Note on permissions:** the `-rwxrwxrwx` modes seen on the May files came from August's own
 `chmod -R ug+rwx` runs. The later reversion to `644`/`755` is expected — iCloud does not
 preserve POSIX modes, so re-materialised files return at defaults. Not tampering.
+
+**Where the May 13 files live online:** at the **top level of iCloud Drive**, loose, not in a
+folder. Both listings were non-recursive, so all 513 entries are root-level items. In the web UI
+that is the `iCloud Drive — 746 items` view; sorted by Date they cluster around 13 May. Full
+list: `icloud-root-may13-files.txt` in this folder.
 
 ---
 
@@ -157,7 +175,8 @@ Procedure:
 
 ## Open item
 
-`/System/Volumes/Data/.fseventsd` has not been read (needs sudo). It is the only remaining route
+`/System/Volumes/Data/.fseventsd` has not been read — it needs sudo, which the assistant does not
+have (`sudo: a password is required`). August must run it. It is the only remaining route
 to a file-level list of what was at `~/` root and in local `~/Downloads` — the part of the loss
 that iCloud does not cover. Command:
 
