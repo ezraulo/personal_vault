@@ -39,31 +39,36 @@ Drive, not Desktop & Documents Folders. From the manifest, that's:
   `package-lock.json` + `node_modules/`, `skills-lock.json`, `system.json`,
   `diagnostics.log`, `network_stability.log`, `2026-08-24-053930-setup.txt`
 
-**Desktop & Documents Folders sync — unresolved conflict (2026-09-05).**
+**Desktop & Documents Folders sync — RESOLVED: it was ON.** (2026-09-05, from iCloud.com)
 
-August states the toggle was ON before the deletion. The log evidence points the other way:
+An earlier reading of this brief said the evidence pointed to "off", because `Desktop` and
+`Documents` were absent from the pre-deletion listing of
+`~/Library/Mobile Documents/com~apple~CloudDocs/`. **That inference was wrong.** Since macOS 13
+iCloud Drive runs on the File Provider architecture and the Desktop & Documents sync roots
+stay at `~/Desktop` and `~/Documents`; they are not subfolders of the legacy `com~apple~CloudDocs`
+path. Their absence there proves nothing. (`Downloads` *was* in that listing because it is an
+ordinary user folder, not a sync root.)
 
-- With D&D sync on, macOS creates `Desktop` and `Documents` *inside* the iCloud container.
-  The pre-deletion listing of `~/Library/Mobile Documents/com~apple~CloudDocs/`
-  (log line 58831, 701 entries) contains neither. It has `Desktop - 0$Smacannoy`,
-  `DEVICE IDS`, `docs`, `Downloads` — but no `Desktop` and no `Documents`.
-- Post-deletion, `~/Desktop` and `~/Documents` were real directories
-  (`drwxrwx--- 2 … 64`), not redirects.
+Proof from the web UI: iCloud Drive's `Documents` folder contains
+`bruno`, `com~apple~CloudDocs`, `com~apple~CloudDocs 2`, `Desktop`, `Documents - may - 1`,
+`FileRecover Project`, `Lenovo Desktop`, `MuseScore4`, `Obsidian Vault`, `Recovered Files`,
+`RsyncUIcopy-07-16-2026:22:49` — a 100% match with the `~/Documents` subdirectories in
+`manifest-userdata-dirs.txt`, including the colon-bearing name.
 
-**Resolve it with one check:** open iCloud Drive on iCloud.com. Are there `Desktop` and
-`Documents` folders at the top level?
+**Consequences:**
 
-- Yes -> sync was on, that content is server-side, and it is the bulk of the loss recovered.
-- No -> the toggle may have been set but the container never materialised on this machine
-  (this home was built by the 2026-08-20 migration); Desktop and Documents were local-only.
+- `~/Desktop` and `~/Documents` are **intact and current** server-side. Web Desktop holds
+  `IMG_6056`–`IMG_6176` dated 2026-09-04 05:31, hours before the deletion.
+- **The deletion never propagated.** Empty Recently Deleted + intact deletion-day content
+  confirms from the server side that `bird`'s database died with the keychain before it could
+  emit a delete.
+- Remaining loss is narrower than previously stated: **files loose at `~/` root**, and
+  **local `~/Downloads`** (`Drive`, the Apple/Facebook/Instagram SARs, `iCloud Notes`, the
+  Logic session). The web `Downloads` is a different folder — 18 items, none of that content.
 
-A reconciliation in which both are true: if sync was on earlier and later switched off, macOS
-moves the cloud copies out to local folders and **leaves the server-side `Desktop`/`Documents`
-in place**. The web would still hold them. Worth looking for specifically.
-
-Either way the top action is the same — **check Recently Deleted first**. If sync was live,
-the `rm -rf` hit synced folders with the daemon running, so deletions could have propagated
-during the ~9 minutes before the keychain died. That is what the 30-day bin would hold.
+**Note on Recently Deleted:** reported empty for months, which August suspects is a stuck
+recovery area worth raising with Apple. Independently of that fault, nothing was expected in
+it here.
 
 Other places copies may exist, worth a pass: git remotes; Dropbox / Google Drive / OneDrive
 30-day server-side trash; IMAP mail, which re-downloads.
@@ -224,6 +229,23 @@ August raised files appearing at home root with unexplained origin. Findings, 20
   `Documents/FileRecover Project`, `Downloads/Drive/Recovered dropbox`, and
   `Relocated Items/Previously Relocated Items 6` and `7` nested inside `Drive MB`.
 
-**Open:** which files August means is not yet identified — candidates are the 37 Ares GDPR
-PDFs and the 29 `SCAN*.JPG` at home root. Origin tracing is possible from the manifests once
-the target is named.
+**Resolved (2026-09-05):** the files August recalled "resurfacing" are the UK/Spanish
+visa and government documents. They were not resurrected — they arrived in a **bulk restore on
+13 May 2026**. Of ~701 entries at the CloudDocs top level, **513 carry the identical mtime
+`May 13 14:53`**, the signature of a mass copy rather than organic creation. Examples:
+
+```
+-rwxrwxrwx  May 13 14:53  $RESOLUCION-NACIONALIDAD-ESPANOLA-DOBLE-NACIONALIDAD.pdf
+-rwxrwxrwx  May 13 14:53  Exemption from immigration control (Non armed forces) - GOV.UK.pdf
+-rwxrwxrwx  May 13 14:53  Immigration Rules part 5: working in the UK - GOV.UK.webarchive
+-rwxrwxrwx  May 13 14:53  concesiones-de-nacionalidad-espanola-*.csv   (4 files)
+-rwxrwxrwx  May 13 14:53  20250319_Pre-action_Protocol_for_Judicial_Review.odt
+```
+
+13 May is the `may`/`earlymay` account era. The files have sat in CloudDocs since and only
+became visible when `ls -le` enumerated the container. **They are on iCloud now and not at
+risk.** The 513-file May restore is a distinct corpus worth reviewing on its own.
+
+**On permissions:** the `-rwxrwxrwx` seen on those files is loose, not strict, and came from
+August's own `chmod -R ug+rwx` runs. The later reversion to `644`/`755` is normal — iCloud does
+not preserve POSIX modes, so re-materialised files return at defaults. Not damage.
