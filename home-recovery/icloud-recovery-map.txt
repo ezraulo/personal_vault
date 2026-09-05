@@ -1,0 +1,383 @@
+# Lost home-root item -> iCloud Drive location(s) where a same-named copy was seen
+# Source: /System/Volumes/Data/.fseventsd, Sep 3 14:57 - Sep 5 16:04
+
+#AI
+    iCloud Drive/Apple Account/May 2026/Drive/
+    iCloud Drive/#DL_Phones/iCloud Drive Part 23 of 194/Drive/
+    iCloud Drive/(root)/
+
+Applications
+    iCloud Drive/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021/
+    iCloud Drive/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021/Library/Caches/Thunderbird/updates/
+    iCloud Drive/Drive BAB/My Drive/bkp/air-too bkp may 2021 (3)/
+    iCloud Drive/Drive BAB/My Drive/bkp/air-too bkp may 2021 (3)/Library/Caches/Thunderbird/updates/
+
+Desktop
+    iCloud Drive/#DL_Phones/iCloud Drive Part 147 of 194/Drive/
+    iCloud Drive/#DL_Phones/iCloud Drive Part 23 of 194/Drive/
+    iCloud Drive/#DL_Phones/iCloud Drive Part 148 of 194/Drive/
+    iCloud Drive/#DL_Phones/iCloud Drive Part 148 of 194/Drive/DEVICE IDS/Os1 may/FileBrowser Edu (0$S1)/Drive/bkp/BackupPlus/
+
+Doc 01 Ares(2022)7277399 flash report meeting with BEUC - 20 October 2022.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 02 Ares(2023)915395 Meeting JUST.C3 and Access Now_Friday 3 February 2023.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 03 Ares(2023)2070649 Amazon JUSTC3 meeting 20_03_23.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 04 Ares(2023)2710021 Meeting with the European Banking Federation_14.04.2023.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 05 Ares(2023)3553417 Meeting JUSTC3 and DOT_23.05.23.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 06 Ares(2023)3556947 ITI JUST.C3 meeting 10.05.23.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 07 Ares(2023)3566733 Meeting with Meta 1 March 2023.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 08 Ares(2023)4115998 Meeting JUSTC3 CCIA 04.05.23.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 09 Ares(2023)4960129 28.04.23 - GDPR Proc. rules - Meeting with MetaPlatforms.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 10 Ares(2023)5294879 Minutes of GDPR Multi stakeholder expert group meeting of 21 April 2023_final.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 11 Ares(2023)5216579 Timelex Memorandum on Future GDPR Procedure Regulation - 14-06-2023.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 12 Ares(2023)5193472 Input VUB redacted.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 13 Ares(2023)4965194 AMAZON_Non-paper - Harmonisation of GDPR cross-border procedures.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 14 Ares(2023)4964221 230324_Consultation_ProcedureGDPR_Linklaters.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 15 Ares(2023)4964069 note on procedural regulation FINAL.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 16 Ares(2023)4963089 Dutch DPA Letter to COM Re Draft Proposal for Regulation complementing GDPR.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 17 Ares(2023)4963758 NO DPA Input-EC presentation of proposal.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 18 Ares(2023)4990476 EDPS 2023-0505 D1465 Informal comments.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 19 Ares(2023)4990606 EDPS_contribution_Procedural_rules_GDPR_enforcement_21042023_final.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 20 Ares(2023)4990695 EDPS_contribution_Annex_I_21042023.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 21 Ares(2023)4990813 EDPS_contribution_Annex_II_21042023.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 22 Ares(2023)5296004 Minutes GDPR-LED expert group - 19.04.2023.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 23 (Ares(2023)5296046 Minutes GDPR-LED expert group - 30.112022..pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 24 Ares(2023)4990344 AT_comments_on_the_Commission_legislative_initative.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 25 Ares(2023)4980549 BG.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 26 Ares(2023)4980845 BG.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 27 Ares(2023)4986305 DE_comments on the COM initiative on procedural aspects.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 28 Ares(2023)4986511 EE_feedback on the EDPB wish list 11.01.2023.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 29 Ares(2023)4986657 FI_EDPB letter_FI comments.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 30 Ares(2023)4985879 FR_2023 04 26 -cad 0175467-jpc 535-rgpd.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 31 Ares(2023)4986088 FR_2023 02 08 - jpc-1073-2023 - note_EN.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 32 Ares(2023)4985625 IE_ObsEDPBProposal.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 33 Ares(2023)4984003 NL.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 34 Ares(2023)4985106 NO.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 35 Ares(2023)4985298 NO Comments.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 36 Ares(2023)4984179 PL.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Doc 37 Ares(2023)4984758 SI.pdf
+    iCloud Drive/Zips/Documents EASE 2023 3854.zip 03-06-49-544/
+    iCloud Drive/Zips/Documents EASE 2023 3854/
+    iCloud Drive/UK statute review/Documents EASE 2023 3854/
+
+Documents
+    iCloud Drive/#DL_Phones/iCloud Drive Part 148 of 194/Drive/Drive MB/_RsyncedtoUntitled/Drive Takeout RE GMail/
+    iCloud Drive/#DL_Phones/iCloud Drive Part 148 of 195/Drive/Drive BAB/My Drive/*RsyncedtoUntitled/Drive Takeout RE GMail (2)/
+    iCloud Drive/#DL_Phones/iCloud Drive Part 148 of 195/Drive/Drive MB/_RsyncedtoUntitled/Drive Takeout RE GMail/
+    iCloud Drive/Apple Account/May 2026/Drive/DEVICE IDS/Os1 may/FileBrowser Edu (0$S1)/Drive/bkp/Android_Google Backup/Android Data/com.overdrive.mobile.android.libby/files/
+
+Downloads
+    iCloud Drive/(root)/
+    iCloud Drive/DEVICE IDS/february device id/Library var root/Containers/com.apple.Dictionary/Data/
+    iCloud Drive/DEVICE IDS/february device id/Library var root/Containers/com.apple.siri.SiriPrivateLearningAnalytics.SiriUserSegments.Plugin/Data/
+    iCloud Drive/DEVICE IDS/february device id/Library var root/Containers/com.apple.weather.menu/Data/
+
+Index
+    iCloud Drive/Takeout (1)/Takeout 2/Drive/Documents/re drive/Shared with Me/1500 4th Ave/PLZ DUPLICATE_2019_Just Listed Template.key.sb-6a0/
+    iCloud Drive/Drive MB/Takeout (1)/Takeout 2/Drive/Documents/re drive/Shared with Me/1500 4th Ave/PLZ DUPLICATE_2019_Just Listed Template.key.sb-6a0/
+    iCloud Drive/Zips/zips2/
+
+Library
+    iCloud Drive/Zips/file: 2/private/var/mobile/Containers/Data/Application/63CB5BDC-7A63-4677-B106-3ECBB94A2AC6/
+    iCloud Drive/Zips/file:/private/var/mobile/Containers/Data/Application/63CB5BDC-7A63-4677-B106-3ECBB94A2AC6/
+    iCloud Drive/#DL_Phones/iCloud Drive Part 147 of 194/Drive/Desktop/iCloud_Recovered/
+    iCloud Drive/#DL_Phones/iCloud Drive Part 23 of 194/Drive/Desktop/iCloud_Recovered/
+
+Movies
+    iCloud Drive/#DL_Phones/iCloud Drive Part 147 of 194/Drive/Drive BAB/My Drive/*RsyncedtoUntitled/
+    iCloud Drive/#DL_Phones/iCloud Drive Part 148 of 194/Drive/Drive BAB/My Drive/*RsyncedtoUntitled/
+    iCloud Drive/#DL_Phones/iCloud Drive Part 148 of 195/Drive/Drive BAB/My Drive/*RsyncedtoUntitled/
+    iCloud Drive/DEVICE IDS/february device id/Library var root/Containers/com.apple.Dictionary/Data/
+
+Music
+    iCloud Drive/DEVICE IDS/february device id/Application Support/
+    iCloud Drive/DEVICE IDS/february device id/Application Support/com.apple.iTunesCloud/URLBags/
+    iCloud Drive/DEVICE IDS/february device id/Library var root/Containers/com.apple.Dictionary/Data/
+    iCloud Drive/DEVICE IDS/february device id/Library var root/Containers/com.apple.siri.SiriPrivateLearningAnalytics.SiriUserSegments.Plugin/Data/
+
+Part 3
+    iCloud Drive/UK statute review/
+
+Pictures
+    iCloud Drive/#DL_Phones/iCloud Drive Part 23 of 194/Drive/Drive MB/My Drive/Lenovo Desktop/Desktop/olddrive/Amazon Drive/
+    iCloud Drive/#DL_Phones/iCloud Drive Part 23 of 194/Drive/Desktop/iCloud_Recovered/Library/Mobile Documents/com~apple~CloudDocs/Drive MB/My Drive/Lenovo Desktop/Desktop/olddrive/Amazon Drive/
+    iCloud Drive/DEVICE IDS/february device id/Library var root/Containers/com.apple.Dictionary/Data/
+    iCloud Drive/DEVICE IDS/february device id/Library var root/Containers/com.apple.siri.SiriPrivateLearningAnalytics.SiriUserSegments.Plugin/Data/
+
+SCAN0009.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0010.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0011.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0012.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0013.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0014.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0015.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0016.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0017.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0018.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0019.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0020.JPG
+    iCloud Drive/UK statute review/Part 2/
+
+SCAN0021.JPG
+    iCloud Drive/UK statute review/Part 3/
+
+SCAN0022.JPG
+    iCloud Drive/UK statute review/Part 3/
+
+SCAN0023.JPG
+    iCloud Drive/UK statute review/Part 3/
+
+SCAN0024.JPG
+    iCloud Drive/UK statute review/Part 3/
+
+SCAN0025.JPG
+    iCloud Drive/UK statute review/Part 3/
+
+SCAN0026.JPG
+    iCloud Drive/UK statute review/Part 3/
+
+SCAN0027.JPG
+    iCloud Drive/UK statute review/Part 3/
+
+SCAN0028.JPG
+    iCloud Drive/UK statute review/Part 3/
+
+SCAN0029.JPG
+    iCloud Drive/UK statute review/Part 3/
+
+SCAN0058.JPG
+    iCloud Drive/UK statute review/Part 7/
+
+SCAN0059.JPG
+    iCloud Drive/UK statute review/Part 7/
+
+SCAN0060.JPG
+    iCloud Drive/UK statute review/Part 7/
+
+SCAN0061.JPG
+    iCloud Drive/UK statute review/Part 7/
+
+SCAN0062.JPG
+    iCloud Drive/UK statute review/Part 7/
+
+SCAN0063.JPG
+    iCloud Drive/UK statute review/Part 7/
+
+SCAN0064.JPG
+    iCloud Drive/UK statute review/Part 7/
+
+SCAN0065.JPG
+    iCloud Drive/UK statute review/Part 7/
+
+app
+    iCloud Drive/LearningLondon/lib/python3.14/site-packages/jedi/third_party/typeshed/stubs/gunicorn/gunicorn/
+    iCloud Drive/Drive BAB/My Drive/bkp/air-too bkp may 2021 (3)/Library/Application Support/Google/Chrome/Default/Extensions/mlomiejdfkolichcflejclcbmpeaniij/8.5.5_0/
+    iCloud Drive/Drive BAB/My Drive/bkp/air-too bkp may 2021 (1)/Library/Application Support/Google/Chrome/Default/Extensions/mlomiejdfkolichcflejclcbmpeaniij/8.5.5_0/
+
+backend
+    iCloud Drive/LearningLondon/lib/python3.14/site-packages/zmq/
+
+docker
+    iCloud Drive/LearningLondon/lib/python3.14/site-packages/jedi/third_party/typeshed/stubs/
+    iCloud Drive/LearningLondon/lib/python3.14/site-packages/jedi/third_party/typeshed/stubs/docker/
+
+log
+    iCloud Drive/DEVICE IDS/August 2026/Iphone/Aqara Home (0$SiPhone)/
+    iCloud Drive/DEVICE IDS/August 2026/Iphone/Wi-Fi Toolkit (0$SiPhone)/
+    iCloud Drive/LearningLondon/lib/python3.14/site-packages/zmq/
+    iCloud Drive/(root)/
+
+mutagen
+    iCloud Drive/Drive MB/***TAKEOUTMB/.local/pipx/venvs/yt-dlp/lib/python3.8/site-packages/
+
+network
+    iCloud Drive/LearningLondon/.venv-1/lib/python3.9/site-packages/pip/_internal/
+    iCloud Drive/LearningLondon/.venv/lib/python3.9/site-packages/pip/_internal/
+    iCloud Drive/DEVICE IDS/August 2026/Iphone/Aqara Home (0$SiPhone)/log/
+    iCloud Drive/LearningLondon/lib/python3.14/site-packages/pip/_internal/
+
+node_modules
+    iCloud Drive/Apple Account/May 2026/Drive/#AI/@google/gemini-cli/
+
+package-lock.json
+    iCloud Drive/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/alexa-london-travel-site.git/src/LondonTravel.Site/
+    iCloud Drive/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/src/LondonTravel.Site/
+    iCloud Drive/(root)/
+
+package.json
+    iCloud Drive/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/alexa-london-travel-site.git/src/LondonTravel.Site/
+    iCloud Drive/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/src/LondonTravel.Site/
+    iCloud Drive/dist/
+    iCloud Drive/LearningLondon/lib/python3.14/site-packages/jupyterlab/galata/@jupyterlab/galata-extension/
+
+profile
+    iCloud Drive/LearningLondon/lib/python3.14/site-packages/IPython/core/
+    iCloud Drive/Drive BAB/Takeout/Takeout 2/Nest/user/
+    iCloud Drive/Drive BAB/Takeout/Takeout 20/Nest/user/
+    iCloud Drive/Drive BAB/Takeout/Takeout 12/Nest/user/
+

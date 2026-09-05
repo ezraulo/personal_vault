@@ -1,0 +1,22 @@
+# Home-root items with NO same-named copy anywhere in iCloud Drive
+2026-08-24-053930-setup.txt
+Duplicates
+MEGA
+Public
+Untitled.xcworkspace
+claude worktrees
+claude-network-skills
+diagnostics.log
+duplicate_finder.sh
+enabled
+jobspy-mcp-server
+kube
+meta
+multi-container-app
+network_stability.log
+skills-lock.json
+system
+system.json
+tictactoe.py
+virtualization
+vm

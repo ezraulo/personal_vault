@@ -1,0 +1,71 @@
+.DS_Store
+.Screenshot 2026-09-04 at 1.23.59 PM.png
+.Screenshot 2026-09-04 at 1.24.03 PM.png
+.Screenshot 2026-09-04 at 1.24.07 PM.png
+.Screenshot 2026-09-04 at 1.25.06 PM.png
+.Screenshot 2026-09-04 at 1.25.11 PM.png
+.Screenshot 2026-09-05 at 1.22.10 AM.png
+.Screenshot 2026-09-05 at 3.23.38 PM.png
+.Screenshot 2026-09-05 at 3.24.12 PM.png
+.Screenshot 2026-09-05 at 3.24.35 PM.png
+.Screenshot 2026-09-05 at 3.24.56 PM.png
+.Screenshot 2026-09-05 at 6.57.19 AM.png
+aqara home
+Claude
+commonResources
+gptplayground.xcworkspace
+gptplayground.xcworkspace.xyzzy
+iCloud Drive Part 8 of 194
+iCloud_Recovered
+IMG_6056.jpeg
+IMG_6056.jpeg.sb-2a146052-k8HlJw
+IMG_6057.jpeg
+IMG_6057.jpeg.sb-2a146052-keN5lU
+IMG_6058.jpeg
+IMG_6058.jpeg.sb-2a146052-uZHWKV
+IMG_6059.jpeg
+IMG_6059.jpeg.sb-2a146052-nbigVP
+IMG_6061.jpeg
+IMG_6061.jpeg.sb-2a146052-MCCmEV
+IMG_6062.jpeg
+IMG_6062.jpeg.sb-2a146052-Qz2Yyg
+IMG_6176.jpeg
+IMG_6176.jpeg.sb-2a146052-Uy4ZD0
+MyPlaygrosund.playground
+MyPlaygrosund.playground.xyzzy
+MyPlayground.playground
+MyPlayground.playground.xyzzy
+NotesExport
+NotesExport2
+playerResources
+python-pypkg
+python-pypkg 2
+Recovered Files
+Safari Export 2026-07-09
+Screenshot 2026-09-01 at 11.30.39 AM.png
+Screenshot 2026-09-01 at 11.30.49 AM.png
+Screenshot 2026-09-01 at 11.31.49 AM.png
+Screenshot 2026-09-01 at 11.31.54 AM.png
+Screenshot 2026-09-01 at 11.32.07 AM.png
+Screenshot 2026-09-01 at 11.32.14 AM.png
+Screenshot 2026-09-01 at 11.32.28 AM.png
+Screenshot 2026-09-01 at 11.32.33 AM.png
+Screenshot 2026-09-02 at 5.18.37 PM.png
+Screenshot 2026-09-02 at 5.18.45 PM.png
+Screenshot 2026-09-02 at 5.18.53 PM.png
+Screenshot 2026-09-03 at 9.43.03 AM.png
+Screenshot 2026-09-04 at 1.23.59 PM.png
+Screenshot 2026-09-04 at 1.24.03 PM.png
+Screenshot 2026-09-04 at 1.24.07 PM.png
+Screenshot 2026-09-04 at 1.25.06 PM.png
+Screenshot 2026-09-04 at 1.25.11 PM.png
+Screenshot 2026-09-05 at 1.22.10 AM.png
+Screenshot 2026-09-05 at 3.23.38 PM.png
+Screenshot 2026-09-05 at 3.24.12 PM.png
+Screenshot 2026-09-05 at 3.24.35 PM.png
+Screenshot 2026-09-05 at 3.24.56 PM.png
+Screenshot 2026-09-05 at 6.57.19 AM.png
+snapshots_backups
+Untitled.xcworkspace
+Untitled.xcworkspace.xyzzy
+V4

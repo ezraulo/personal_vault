@@ -68,50 +68,56 @@ of account migration and recovery work.
 
 ---
 
-## Goal 3 — What moved them since, and to where
+## Goal 3 — RESOLVED by fseventsd (2026-09-05)
 
-**Status: unresolved. An earlier explanation in this file was wrong and is retracted.**
+`/System/Volumes/Data/.fseventsd` was recovered (2,438 logs, Sep 3 14:57 -> Sep 5 16:04,
+unbroken across the whole event) and parsed with `tools/parse_fsevents.py`. 4.77 M events.
 
-The retracted claim: that iCloud *eviction* explained files "resurfacing" in a listing. It does
-not. An evicted iCloud file is a dataless placeholder — its **name still appears in `ls`**.
-Eviction hides content, not directory entries. So eviction cannot explain a file being absent
-from one `ls` and present in a later one. August identified this; the mechanism was misapplied.
+**Finding 1 — nothing was written to iCloud at sign-out.** The last log file containing *any*
+`Mobile Documents` event is `00000000326b8812`, mtime **Sep 4 21:51**. The keychain was destroyed
+and the account signed out at **21:53**. Logs at 21:52, 21:53, 21:54 and 21:55 contain **zero**
+`Mobile Documents` events.
 
-What the log does establish, tested directly: the session contains **two** enumerations of
-iCloud Drive root, at lines 16253 and 58831. Both are non-recursive `ls -le` of
-`~/Library/Mobile Documents/com~apple~CloudDocs/`:
+So the visa/government PDFs did **not** appear at sign-out. They were already in the container;
+what changed was that `ls -le` enumerated it. The earlier hypothesis of an external agent
+manipulating sync is not supported — and now has direct evidence against it.
 
-```
-Listing A (line 16253): 701 entries, 11 visa/immigration files
-Listing B (line 58831): 701 entries, 11 visa/immigration files
-diff A B  ->  IDENTICAL (byte-for-byte)
-```
+**Finding 2 — the `##BOOKSMB` activity was August's own, and my earlier framing conflated two
+different clocks.** The "Sep 4 19:08" figure was a *file mtime* read out of an `ls` listing
+inside the terminal log. The "21:40-22:57" figures were the *mtimes of the fseventsd log files
+themselves*. Different measurements entirely; there was never a gap. fsevents in fact shows
+`##BOOKSMB` activity in logs stamped 19:07 **and** 21:23-21:25, i.e. continuous.
 
-So nothing changed between them. What cannot be established: whether the files were absent from
-any *earlier* listing. Line 16253 is the first enumeration of iCloud Drive root in the log;
-there is nothing before it to compare against, and the session prior to that point was not
-captured. August's recollection — that the files did not appear until after the iCloud sign-out
-— is therefore **outside the evidence, neither confirmed nor refuted**.
+---
 
-Remaining candidate explanations, undecided:
-- the files were genuinely added to the container at some point not covered by the log;
-- the earlier non-sighting was in Finder rather than `ls` (746 loose items at iCloud Drive root
-  make individual files easy to miss).
+## Goal 3b — 87 of 108 "lost" home-root items have an iCloud copy
 
-**Also retracted:** the claim that the `Sep 4 19:08` cluster correlates with August's `rsync`
-runs. It does not — those rsyncs targeted `~/Downloads/Drive/` -> `~/Downloads/iCloud Drive/`,
-a different tree. The 876 entries at `Sep 4 19:08` are book folders inside
-`com~apple~CloudDocs/##BOOKSMB` (log line 8010). What touched them at that time is not
-established. They are unrelated to the May 13 files.
+Cross-referencing every basename under `com~apple~CloudDocs/` (210,915 distinct) against the
+109-entry pre-deletion home-root manifest:
 
-**Note on permissions:** the `-rwxrwxrwx` modes seen on the May files came from August's own
-`chmod -R ug+rwx` runs. The later reversion to `644`/`755` is expected — iCloud does not
-preserve POSIX modes, so re-materialised files return at defaults. Not tampering.
+| | count |
+|---|---|
+| Home-root items with a same-named copy in iCloud Drive | **87** |
+| No copy found anywhere in iCloud | 21 |
 
-**Where the May 13 files live online:** at the **top level of iCloud Drive**, loose, not in a
-folder. Both listings were non-recursive, so all 513 entries are root-level items. In the web UI
-that is the `iCloud Drive — 746 items` view; sorted by Date they cluster around 13 May. Full
-list: `icloud-root-may13-files.txt` in this folder.
+Includes the two sets previously written off as unrecoverable:
+
+- **All 37 `Doc NN Ares(20xx)...pdf`** -> `iCloud Drive/Zips/Documents EASE 2023 3854/`
+  and `iCloud Drive/UK statute review/Documents EASE 2023 3854/`
+- **58 distinct `SCAN00xx.JPG`** -> `iCloud Drive/UK statute review/Part 1,2,3,5,7/`
+  and `iCloud Drive/Zips/zips2/Part 1, Part 5/`
+
+The home-root copies were extractions from those iCloud archives, not originals.
+
+Full mapping: `icloud-recovery-map.txt`. Items with no iCloud copy: `icloud-not-found.txt` —
+mostly ephemeral dev dirs (`kube`, `meta`, `system`, `vm`, `virtualization`, `enabled`,
+`Public`), plus genuinely-gone work: `jobspy-mcp-server`, `multi-container-app`,
+`claude worktrees`, `claude-network-skills`, `tictactoe.py`, `Untitled.xcworkspace`,
+`skills-lock.json`, `MEGA`, `Duplicates`, `duplicate_finder.sh`, `system.json`,
+`diagnostics.log`, `network_stability.log`, `2026-08-24-053930-setup.txt`.
+
+**Caveat:** this matches on *filename*, not content or hash. A same-named file in iCloud is a
+strong lead, not proof of identity. Verify size/date on the ones that matter.
 
 ---
 
