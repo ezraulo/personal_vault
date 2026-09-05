@@ -2,43 +2,32 @@
 
 **Machine:** MacBook Air (Apple Silicon), user `august`, home created by migration 2026-08-20.
 **Loss:** night of 2026-09-04. **Brief:** 2026-09-05.
-**Scope constraint (user):** backups older than two weeks are not of interest.
+
+Out of scope: the backup drives attached to the machine. Nothing below depends on them.
 
 ---
 
-## 1. The consequence of the two-week rule
+## 1. What the recovery picture actually is
 
-Nothing on any attached drive falls inside the window (on/after ~2026-08-22):
+- **No APFS local snapshots** ever existed on the internal disk — every `disk3` slice came
+  back clean. That route was never open.
+- **Carving is closed.** Apple Silicon, hardware-encrypted SSD, aggressive TRIM.
+- **iCloud server-side is the only live source.**
 
-| Source | Newest data | In window? |
-|---|---|---|
-| APFS local snapshots, internal disk | none exist | — |
-| `mayTM` (disk7s3) | 2026-05-14 | no |
-| `marchTM` (disk11s1) | 2026-04-10 | no |
-| `blackTMsonoma` (disk11s2) | 2023-era | no |
-| `Backups of 0$Smacpain` (disk10s1) | 2024-01, all `.interrupted` | no |
-
-None of them contains a `/Users/august` home in any case — they hold the earlier accounts
-`december`, `may`, `earlymay`. **Time Machine is not a recovery path here.** The drives are
-free to repartition; the `diskutil`/`gpt`/`fdisk` work in your shell history isn't putting
-anything you want at risk.
-
-**That leaves one live source: iCloud, server-side.**
+The account was signed out on this Mac when the delete destroyed the login keychain — macOS
+lost the credentials and dropped the session. That severed sync before the empty local state
+could propagate, which is why the server copy survived. Nothing local can push a deletion
+right now.
 
 ---
 
-## 2. What iCloud can and cannot cover
+## 2. What iCloud covers, and what it doesn't
 
-Signed out on this Mac (the delete destroyed the login keychain, macOS dropped the account,
-and that severed sync before the empty state could propagate — which is why the server copy
-survived). Nothing local can push a deletion right now.
+**Covered:** whatever lived in `~/Library/Mobile Documents/com~apple~CloudDocs`, plus Photos,
+Notes and Contacts. Each keeps its own 30-day **Recently Deleted** bin — check all three.
 
-**Covered:** whatever was in `~/Library/Mobile Documents/com~apple~CloudDocs`, plus Photos,
-Notes, Contacts. Each has its own 30-day **Recently Deleted** bin — check all three.
-
-**Not covered — and this is the part that matters:** files sitting loose at `~/` root. No
-iCloud feature syncs those. Not iCloud Drive, not Desktop & Documents Folders. From the
-pre-deletion manifest, that includes:
+**Not covered:** files sitting loose at `~/` root. No iCloud feature syncs those — not iCloud
+Drive, not Desktop & Documents Folders. From the manifest, that's:
 
 - 37 × `Doc NN Ares(2022|2023)… .pdf` — EU Commission GDPR-procedure meeting documents
 - `SCAN0009`–`SCAN0029`, `SCAN0058`–`SCAN0065` `.JPG` (29 scans)
@@ -50,17 +39,16 @@ pre-deletion manifest, that includes:
   `package-lock.json` + `node_modules/`, `skills-lock.json`, `system.json`,
   `diagnostics.log`, `network_stability.log`, `2026-08-24-053930-setup.txt`
 
-Anything in that list created after the 2026-08-20 migration has no copy anywhere. Anything
-older may have arrived with the migration and could still exist in an older backup — but by
-your rule those are out of scope, so treat the list as lost unless you say otherwise.
-
-**Open question that changes the size of the loss:** was "Desktop & Documents Folders" sync
-switched on? Weak evidence says no — `~/Documents` contained `com~apple~CloudDocs` and
-`com~apple~CloudDocs 2` as *subdirectories*, which is not how the folder looks when it is
-itself the synced target. If sync was off, everything under `~/Desktop` and `~/Documents`
+**The open question that sizes everything else:** was "Desktop & Documents Folders" sync on?
+Weak evidence says no — `~/Documents` contained `com~apple~CloudDocs` and
+`com~apple~CloudDocs 2` as *subdirectories*, which is not how that folder looks when it is
+itself the sync target. If sync was off, the whole Desktop and Documents tree
 (`Obsidian Vault`, `FileRecover Project`, `Recovered Files`, `Lenovo Desktop`,
-`Documents - may - 1`, `bruno`, `MuseScore4`, `RsyncUIcopy-07-16-2026:22:49`) is in the same
-position as the home-root files. If it was on, that whole tree comes back.
+`Documents - may - 1`, `bruno`, `MuseScore4`, `RsyncUIcopy-07-16-2026:22:49`) sits in the same
+position as the home-root files.
+
+Other places copies may exist, worth a pass: git remotes; Dropbox / Google Drive / OneDrive
+30-day server-side trash; IMAP mail, which re-downloads.
 
 ---
 
@@ -83,19 +71,16 @@ Zero recovered user files.
 
 ## 4. Order of operations
 
-1. **Answer the Desktop & Documents sync question** — it decides whether the loss is
+1. **Settle the Desktop & Documents sync question** — it decides whether the loss is
    "home-root loose files" or "home-root plus all of Desktop and Documents."
-2. **Attach an external drive** as the download target. Not `Restore` (disk7s1): it shares
-   an APFS container with `mayTM` and has ~33 GiB free between them, not the 201 GiB `df` implies.
+2. **Attach an external drive** as the download target.
 3. **Pull iCloud Drive down from another device**, not this one. Check Recently Deleted in
-   iCloud Drive, Photos and Notes while you're there.
-4. **Reconcile against `manifest-home-root.txt`** — 109 entries; tick each one off and see
-   what's left unaccounted for.
-5. **Then** sign back into iCloud here, with Desktop & Documents sync left off until iCloud
-   Drive has populated and looks correct. Needs the Apple Account password plus a 2FA code and
-   the local keychain is gone — have a second trusted device ready before starting.
-6. Set up a fresh Time Machine destination once this settles. If macOS offers to adopt one of
-   the existing backup drives, that's now your call rather than a hazard.
+   iCloud Drive, Photos and Notes while you're in there.
+4. **Reconcile against `manifest-home-root.txt`** — 109 entries; tick each off and see what
+   is left unaccounted for.
+5. **Then** sign back in here, with Desktop & Documents sync left off until iCloud Drive has
+   populated and looks right. Sign-in needs the Apple Account password plus a 2FA code and the
+   local keychain is gone — have a second trusted device ready before you start.
 
 ---
 
@@ -113,13 +98,10 @@ sudo rm -rf /Users/august/.Trash/../
 
 Home had 165 entries at 21:44 and ~22 by 22:31. The exact command isn't definitively
 isolatable from the log — the output region is overwritten by a zsh completion menu, and BSD
-`rm` normally refuses a `..` basename — and it doesn't change anything downstream.
+`rm` normally refuses a `..` basename — and it changes nothing downstream.
 
 The later `rm -rWv` did nothing: `-W` undeletes whiteout entries, a union-filesystem concept
-that doesn't exist on APFS.
-
-Local carving is closed — Apple Silicon, hardware-encrypted SSD, aggressive TRIM, and no APFS
-snapshots ever existed on any `disk3` slice.
+that does not exist on APFS.
 
 ---
 
