@@ -1,0 +1,109 @@
+#AI/
+2026-08-24-053930-setup.txt
+app/
+Applications/
+backend/
+claude worktrees/
+claude-network-skills/
+Desktop/
+diagnostics.log
+Doc 01 Ares(2022)7277399 flash report meeting with BEUC - 20 October 2022.pdf
+Doc 02 Ares(2023)915395 Meeting JUST.C3 and Access Now_Friday 3 February 2023.pdf
+Doc 03 Ares(2023)2070649 Amazon JUSTC3 meeting 20_03_23.pdf
+Doc 04 Ares(2023)2710021 Meeting with the European Banking Federation_14.04.2023.pdf
+Doc 05 Ares(2023)3553417 Meeting JUSTC3 and DOT_23.05.23.pdf
+Doc 06 Ares(2023)3556947 ITI JUST.C3 meeting 10.05.23.pdf
+Doc 07 Ares(2023)3566733 Meeting with Meta 1 March 2023.pdf
+Doc 08 Ares(2023)4115998 Meeting JUSTC3 CCIA 04.05.23.pdf
+Doc 09 Ares(2023)4960129 28.04.23 - GDPR Proc. rules - Meeting with MetaPlatforms.pdf
+Doc 10 Ares(2023)5294879 Minutes of GDPR Multi stakeholder expert group meeting of 21 April 2023_final.pdf
+Doc 11 Ares(2023)5216579 Timelex Memorandum on Future GDPR Procedure Regulation - 14-06-2023.pdf
+Doc 12 Ares(2023)5193472 Input VUB redacted.pdf
+Doc 13 Ares(2023)4965194 AMAZON_Non-paper - Harmonisation of GDPR cross-border procedures.pdf
+Doc 14 Ares(2023)4964221 230324_Consultation_ProcedureGDPR_Linklaters.pdf
+Doc 15 Ares(2023)4964069 note on procedural regulation FINAL.pdf
+Doc 16 Ares(2023)4963089 Dutch DPA Letter to COM Re Draft Proposal for Regulation complementing GDPR.pdf
+Doc 17 Ares(2023)4963758 NO DPA Input-EC presentation of proposal.pdf
+Doc 18 Ares(2023)4990476 EDPS 2023-0505 D1465 Informal comments.pdf
+Doc 19 Ares(2023)4990606 EDPS_contribution_Procedural_rules_GDPR_enforcement_21042023_final.pdf
+Doc 20 Ares(2023)4990695 EDPS_contribution_Annex_I_21042023.pdf
+Doc 21 Ares(2023)4990813 EDPS_contribution_Annex_II_21042023.pdf
+Doc 22 Ares(2023)5296004 Minutes GDPR-LED expert group - 19.04.2023.pdf
+Doc 23 (Ares(2023)5296046 Minutes GDPR-LED expert group - 30.112022..pdf
+Doc 24 Ares(2023)4990344 AT_comments_on_the_Commission_legislative_initative.pdf
+Doc 25 Ares(2023)4980549 BG.pdf
+Doc 26 Ares(2023)4980845 BG.pdf
+Doc 27 Ares(2023)4986305 DE_comments on the COM initiative on procedural aspects.pdf
+Doc 28 Ares(2023)4986511 EE_feedback on the EDPB wish list 11.01.2023.pdf
+Doc 29 Ares(2023)4986657 FI_EDPB letter_FI comments.pdf
+Doc 30 Ares(2023)4985879 FR_2023 04 26 -cad 0175467-jpc 535-rgpd.pdf
+Doc 31 Ares(2023)4986088 FR_2023 02 08 - jpc-1073-2023 - note_EN.pdf
+Doc 32 Ares(2023)4985625 IE_ObsEDPBProposal.pdf
+Doc 33 Ares(2023)4984003 NL.pdf
+Doc 34 Ares(2023)4985106 NO.pdf
+Doc 35 Ares(2023)4985298 NO Comments.pdf
+Doc 36 Ares(2023)4984179 PL.pdf
+Doc 37 Ares(2023)4984758 SI.pdf
+docker/
+Documents/
+Downloads/
+duplicate_finder.sh*
+Duplicates/
+enabled
+Index/
+jobspy-mcp-server/
+kube/
+Library/
+log/
+MEGA/
+meta/
+Movies/
+multi-container-app/
+Music/
+mutagen/
+network/
+network_stability.log
+node_modules/
+package-lock.json
+package.json
+Part 3/
+Pictures/
+profile/
+Public/
+SCAN0009.JPG
+SCAN0010.JPG
+SCAN0011.JPG
+SCAN0012.JPG
+SCAN0013.JPG
+SCAN0014.JPG
+SCAN0015.JPG
+SCAN0016.JPG
+SCAN0017.JPG
+SCAN0018.JPG
+SCAN0019.JPG
+SCAN0020.JPG
+SCAN0021.JPG
+SCAN0022.JPG
+SCAN0023.JPG
+SCAN0024.JPG
+SCAN0025.JPG
+SCAN0026.JPG
+SCAN0027.JPG
+SCAN0028.JPG
+SCAN0029.JPG
+SCAN0058.JPG
+SCAN0059.JPG
+SCAN0060.JPG
+SCAN0061.JPG
+SCAN0062.JPG
+SCAN0063.JPG
+SCAN0064.JPG
+SCAN0065.JPG
+skills-lock.json
+system/
+system.json
+tictactoe.py
+Untitled.xcworkspace/
+virtualization/
+vm/
+rm: /Users/august/.Trash/../.Trash/Nextcloud-kai.nl.tab.digital-eager.deletes.0h@icloud.com: Directory not empty

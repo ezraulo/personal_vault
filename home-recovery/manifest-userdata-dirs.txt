@@ -1,0 +1,603 @@
+Desktop/aqara home
+Desktop/Claude
+Desktop/Claude/blob_storage
+Desktop/Claude/Cache
+Desktop/Claude/Cache/Cache_Data
+Desktop/Claude/Claude Extensions
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/@modelcontextprotocol
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/@modelcontextprotocol/sdk
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/@modelcontextprotocol/sdk/dist
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/iconv-lite
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/iconv-lite/.github
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/iconv-lite/.idea
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/iconv-lite/.idea/codeStyles
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/iconv-lite/.idea/inspectionProfiles
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/zod
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/zod/dist
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/zod/dist/cjs
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/zod/dist/cjs/v3
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/zod/dist/cjs/v4
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/zod/dist/esm
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/zod/dist/esm/v3
+Desktop/Claude/Claude Extensions/ant.dir.ant.anthropic.chrome-control/node_modules/zod/dist/esm/v4
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/@modelcontextprotocol
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/@modelcontextprotocol/sdk
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/@modelcontextprotocol/sdk/dist
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/iconv-lite
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/iconv-lite/.github
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/iconv-lite/.idea
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/iconv-lite/.idea/codeStyles
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/iconv-lite/.idea/inspectionProfiles
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/zod
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/zod/src
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/zod/src/v3
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/zod/src/v4
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/zod/v3
+Desktop/Claude/Claude Extensions/ant.dir.gh.k6l3.osascript/node_modules/zod/v4
+Desktop/Claude/claude-code
+Desktop/Claude/claude-code-sessions
+Desktop/Claude/claude-code-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936
+Desktop/Claude/claude-code-vm
+Desktop/Claude/claude-code-vm/2.1.260
+Desktop/Claude/claude-code/2.1.258
+Desktop/Claude/claude-code/2.1.260
+Desktop/Claude/Code Cache
+Desktop/Claude/Code Cache/js
+Desktop/Claude/Crashpad
+Desktop/Claude/File System
+Desktop/Claude/IndexedDB
+Desktop/Claude/IndexedDB/https_claude.ai_0.indexeddb.blob
+Desktop/Claude/Local Storage
+Desktop/Claude/local-agent-mode-sessions
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/.project-cache
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/.project-cache/01a03869-6d31-71e1-bc0e-e5efd287cf96
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/.project-cache/01a03869-6d31-71e1-bc0e-e5efd287cf96/docs
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/local_2b754f2e-91f2-444f-8d68-643d845bf9f7
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/local_2b754f2e-91f2-444f-8d68-643d845bf9f7/.claude
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/local_2b754f2e-91f2-444f-8d68-643d845bf9f7/.claude/backups
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/local_2b754f2e-91f2-444f-8d68-643d845bf9f7/.claude/projects
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/local_2b754f2e-91f2-444f-8d68-643d845bf9f7/.claude/projects/-Users-august-Library-Application-Support-Claude-local-agent-mode-sessions-f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936-da7d3701-07a8-435a-bf5c-a78d7f2ee631-local-2b754f2e-91f2-444f-8d68-643d845bf9f7-outputs
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_0111naJ9VtqutfrgpZKFoQNu
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_0111naJ9VtqutfrgpZKFoQNu/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_0117vJ3T8muoYTMFfP1kpvh1
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_0117vJ3T8muoYTMFfP1kpvh1/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011e6UhbCkoAGkCN3JgHvJY7
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011e6UhbCkoAGkCN3JgHvJY7/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011e6UhbCkoAGkCN3JgHvJY7/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/servers
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/servers/documents
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/servers/fhir
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/skills/clinical-note-extract
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/skills/clinical-trial-protocol
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/skills/contracts
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/skills/contracts/.claude
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/skills/contracts/.claude/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/skills/contracts/.claude/skills/verify
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/skills/doc-extract
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011MUdqNiAZfQtojWgM7Xf8e/skills/fraud-detection
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011v5h6QUzBZvas64y44XLhy
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_011v5h6QUzBZvas64y44XLhy/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_012ABz1xjgtJYWKrcJkXW6ad
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_012ABz1xjgtJYWKrcJkXW6ad/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_012ABz1xjgtJYWKrcJkXW6ad/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_012Hki23QBMrM813QsH7z4yF
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_012Hki23QBMrM813QsH7z4yF/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_012Hki23QBMrM813QsH7z4yF/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_013ewP38ocS4zm5ZbTyd6vi4
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_013ewP38ocS4zm5ZbTyd6vi4/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_013ewP38ocS4zm5ZbTyd6vi4/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_014QbvPGJCsZ7yhm3dpaRHfQ
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_014QbvPGJCsZ7yhm3dpaRHfQ/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_014QbvPGJCsZ7yhm3dpaRHfQ/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_014WxCYbLf7f3uw2isHFR9US
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_014WxCYbLf7f3uw2isHFR9US/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_014WxCYbLf7f3uw2isHFR9US/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_0155zZVATbJU3jHUmPP9NvMC
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_0155zZVATbJU3jHUmPP9NvMC/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_0155zZVATbJU3jHUmPP9NvMC/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_015HEjwRQiXvvTREsGD66Pp3
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_015HEjwRQiXvvTREsGD66Pp3/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_015HEjwRQiXvvTREsGD66Pp3/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016avoYh97EuKB9BBjsStvJa
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016avoYh97EuKB9BBjsStvJa/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016avoYh97EuKB9BBjsStvJa/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/.codex-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/.cursor-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/acul-screen-generator
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/acul-screen-generator/assets
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-branding
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-branding/tests
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-custom-domains
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-custom-domains/tests
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-flask
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-flutter-native
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-flutter-web
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-ionic-angular
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-ionic-react
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-ionic-vue
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-spa-js
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-swift
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/auth0-swift-major-migration
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016cSUSAbkFomBVkHDzZcKrD/skills/express-oauth2-jwt-bearer
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016LBQPy1oNvFGwwJW4oBzUN
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016LBQPy1oNvFGwwJW4oBzUN/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016LBQPy1oNvFGwwJW4oBzUN/.github
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016LBQPy1oNvFGwwJW4oBzUN/.github/workflows
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016LBQPy1oNvFGwwJW4oBzUN/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_016LBQPy1oNvFGwwJW4oBzUN/skills/fastly-fiddle
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_019TBdWa5NQJJuDFmEc4k6BJ
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_019TBdWa5NQJJuDFmEc4k6BJ/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_019TBdWa5NQJJuDFmEc4k6BJ/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01ALKqaEhmMkJxi3U6Z12zTx
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01ALKqaEhmMkJxi3U6Z12zTx/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01ALKqaEhmMkJxi3U6Z12zTx/.codex-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01ALKqaEhmMkJxi3U6Z12zTx/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01AYHYqVLaZRH2Vi6aHgDwEw
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01AYHYqVLaZRH2Vi6aHgDwEw/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01AYHYqVLaZRH2Vi6aHgDwEw/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE/.codex-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE/.cursor-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE/.github
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE/.github/workflows
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE/.grok-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE/evals
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE/skills/nimble-databricks-data-products
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE/skills/nimble-web-expert
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01BB1HUyHKrddLdPpkTMBUvE/skills/nimble-web-expert/references
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01DZdK2sP1iWnY1hRYRcFc9W
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01DZdK2sP1iWnY1hRYRcFc9W/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01DZdK2sP1iWnY1hRYRcFc9W/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01DZdK2sP1iWnY1hRYRcFc9W/skills/nextflow-development
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01DZdK2sP1iWnY1hRYRcFc9W/skills/nextflow-development/scripts
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01EaMetuswrH3NH34DHju1ru
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01EaMetuswrH3NH34DHju1ru/.claude
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01EaMetuswrH3NH34DHju1ru/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01EaMetuswrH3NH34DHju1ru/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01EMzU39dHiuWPVTwypWBUq5
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01EMzU39dHiuWPVTwypWBUq5/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01EMzU39dHiuWPVTwypWBUq5/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01FRFU5TSrfASYFfGyoau559
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01FRFU5TSrfASYFfGyoau559/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01FRFU5TSrfASYFfGyoau559/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01FTLa86dhbVJ3HB1LdHdhN7
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01FTLa86dhbVJ3HB1LdHdhN7/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01FTLa86dhbVJ3HB1LdHdhN7/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH/.cursor-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH/.github
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH/.github/img
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH/.github/plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH/.grok-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH/skills/chrome-extensions
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH/skills/chrome-extensions/references
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH/skills/modern-web-guidance
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01GGVzv6vXnEiYqATQVsubdH/skills/modern-web-guidance/guides
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01Jt2AiEy5KRJgEmXPMMJTZd
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01Jt2AiEy5KRJgEmXPMMJTZd/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01Jt2AiEy5KRJgEmXPMMJTZd/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01Jz8FpLAki87sChibDUQ1Rb
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01Jz8FpLAki87sChibDUQ1Rb/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01Jz8FpLAki87sChibDUQ1Rb/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01KmRfL8EXGF3PeqMRzef1TR
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01KmRfL8EXGF3PeqMRzef1TR/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01KmRfL8EXGF3PeqMRzef1TR/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01M1t6Lunq2BF1JEMnbdUpfH
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01M1t6Lunq2BF1JEMnbdUpfH/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01M1t6Lunq2BF1JEMnbdUpfH/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01MFEgnUaF7pHjbNwmfzjCYc
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01MFEgnUaF7pHjbNwmfzjCYc/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01MFYsNHGhHdLbca13N9DncV
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01MFYsNHGhHdLbca13N9DncV/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01MFYsNHGhHdLbca13N9DncV/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01Msre2cuRwYZbVFYNtDnW4J
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01Msre2cuRwYZbVFYNtDnW4J/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01Msre2cuRwYZbVFYNtDnW4J/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01N469sJFChNEScCDxXnerCp
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01N469sJFChNEScCDxXnerCp/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01PJmMs2mP151XhRkkpJjDJZ
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01PJmMs2mP151XhRkkpJjDJZ/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01QVvYc2YDKHU5t4BXTeMzf9
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01QVvYc2YDKHU5t4BXTeMzf9/.claude
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01QVvYc2YDKHU5t4BXTeMzf9/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01QVvYc2YDKHU5t4BXTeMzf9/.claude/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01QVvYc2YDKHU5t4BXTeMzf9/.claude/skills/verify
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01QVvYc2YDKHU5t4BXTeMzf9/examples
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01RcwNG5UWX5bgLqiDiBdpmU
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01RcwNG5UWX5bgLqiDiBdpmU/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01RcwNG5UWX5bgLqiDiBdpmU/.codex-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01RcwNG5UWX5bgLqiDiBdpmU/.cursor-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01RcwNG5UWX5bgLqiDiBdpmU/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01S1HcuzG4CPx8bTxZDQAguG
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01S1HcuzG4CPx8bTxZDQAguG/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01S1HcuzG4CPx8bTxZDQAguG/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01SEhWeWVn9QmvL2AcFFAzNk
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01SEhWeWVn9QmvL2AcFFAzNk/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01SEhWeWVn9QmvL2AcFFAzNk/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01U3RkuTLJJzUWfhgDNFAaYK
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01U3RkuTLJJzUWfhgDNFAaYK/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01U3RkuTLJJzUWfhgDNFAaYK/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW/.codex-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW/.cursor
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW/.cursor-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW/.cursor/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW/.cursor/skills/skill-creator
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW/.cursor/skills/skill-creator/references
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW/.cursor/skills/skill-creator/scripts
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW/.github
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW/.github/DISCUSSION_TEMPLATE
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01UWNpa6bBq8PZzGmTDJPMZW/.github/workflows
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01VTbvGZYaCVU2CNSvhDCnkg
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01VTbvGZYaCVU2CNSvhDCnkg/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01VTbvGZYaCVU2CNSvhDCnkg/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01VTDVV5gNkMdV2KzvXYrEZK
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01VTDVV5gNkMdV2KzvXYrEZK/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01VTDVV5gNkMdV2KzvXYrEZK/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01VyNDLNYUZHHyKf7A691D7V
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01VyNDLNYUZHHyKf7A691D7V/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01VyNDLNYUZHHyKf7A691D7V/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01W6w4qSVCoVBSekq8mExJZV
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01W6w4qSVCoVBSekq8mExJZV/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01W6w4qSVCoVBSekq8mExJZV/skills
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01WWrXia5CYQdtd5MF7ZSZP5
+Desktop/Claude/local-agent-mode-sessions/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631/rpm/plugin_01WWrXia5CYQdtd5MF7ZSZP5/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/skills-plugin
+Desktop/Claude/local-agent-mode-sessions/skills-plugin/da7d3701-07a8-435a-bf5c-a78d7f2ee631
+Desktop/Claude/local-agent-mode-sessions/skills-plugin/da7d3701-07a8-435a-bf5c-a78d7f2ee631/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936
+Desktop/Claude/local-agent-mode-sessions/skills-plugin/da7d3701-07a8-435a-bf5c-a78d7f2ee631/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/.claude-plugin
+Desktop/Claude/local-agent-mode-sessions/skills-plugin/da7d3701-07a8-435a-bf5c-a78d7f2ee631/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/skills
+Desktop/Claude/local-agent-mode-sessions/skills-plugin/da7d3701-07a8-435a-bf5c-a78d7f2ee631/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/skills/docx
+Desktop/Claude/local-agent-mode-sessions/skills-plugin/da7d3701-07a8-435a-bf5c-a78d7f2ee631/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/skills/mcp-builder
+Desktop/Claude/local-agent-mode-sessions/skills-plugin/da7d3701-07a8-435a-bf5c-a78d7f2ee631/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/skills/skill-creator
+Desktop/Claude/Partitions
+Desktop/Claude/Partitions/cowork-file-preview
+Desktop/Claude/Partitions/launch-preview-cowork-shared
+Desktop/Claude/Partitions/launch-preview-static
+Desktop/Claude/scratch-workspaces
+Desktop/Claude/scratch-workspaces/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936
+Desktop/Claude/scratch-workspaces/f1ec2c2a-0c17-4d7f-a19d-6e2b96a9b936/da7d3701-07a8-435a-bf5c-a78d7f2ee631
+Desktop/Claude/sentry
+Desktop/Claude/Shared Dictionary
+Desktop/Claude/shared_proto_db
+Desktop/Claude/vm_bundles
+Desktop/Claude/WebStorage
+Desktop/commonResources
+Desktop/iCloud Drive Part 8 of 194
+Desktop/iCloud_Recovered
+Desktop/iCloud_Recovered/.local
+Desktop/iCloud_Recovered/.local/share
+Desktop/iCloud_Recovered/.local/share/uv
+Desktop/iCloud_Recovered/.local/share/uv/tools
+Desktop/iCloud_Recovered/.local/share/uv/tools/mistral-vibe
+Desktop/iCloud_Recovered/.local/share/uv/tools/mistral-vibe/lib
+Desktop/iCloud_Recovered/.local/share/uv/tools/mistral-vibe/lib/python3.14
+Desktop/iCloud_Recovered/.local/share/uv/tools/mistral-vibe/lib/python3.14/site-packages
+Desktop/iCloud_Recovered/.local/share/uv/tools/mistral-vibe/lib/python3.14/site-packages/mistralai
+Desktop/playerResources
+Desktop/playerResources/07ap1accpo200
+Desktop/playerResources/0m9qg87c5jn59
+Desktop/playerResources/1d6bq20v231ff
+Desktop/playerResources/1ljma3ofjclh3
+Desktop/playerResources/1mc1939ku6f35
+Desktop/playerResources/2jscjilvdm6pd
+Desktop/playerResources/33ct0vprekck5
+Desktop/playerResources/3dmupl8if9dtf
+Desktop/playerResources/44lb4rnmtmi19
+Desktop/playerResources/4qblc4aupqnse
+Desktop/playerResources/539clmaui43c6
+Desktop/playerResources/5dg83ojv7ida5
+Desktop/playerResources/5gtukraa9cbfd
+Desktop/playerResources/6djle8jsd0p0f
+Desktop/playerResources/6gscuhm6o3vn2
+Desktop/playerResources/77v4maijfuote
+Desktop/playerResources/7afm4akvblh09
+Desktop/playerResources/7c8i4126m98le
+Desktop/playerResources/7h2k2g5viltgd
+Desktop/playerResources/7hknc0o45aa4f
+Desktop/playerResources/7i3cfvfvsr0u8
+Desktop/playerResources/7u6nbqjo1k6ae
+Desktop/playerResources/86v1nc2b8430b
+Desktop/playerResources/90783jo9a9048
+Desktop/playerResources/9ancajqj1m89d
+Desktop/playerResources/9c889ifo4kdb3
+Desktop/playerResources/9cpjae6cmsn28
+Desktop/playerResources/a27ffscrumen3
+Desktop/playerResources/acmfpi443lp71
+Desktop/playerResources/b9ikgc83pts5f
+Desktop/playerResources/c9t92l1gll05c
+Desktop/playerResources/ck168rml419gb
+Desktop/playerResources/dfc02387diqv6
+Desktop/playerResources/dgcvqo1uda3g5
+Desktop/playerResources/dhd35j58bs0df
+Desktop/playerResources/dijdhoj63jr39
+Desktop/playerResources/e80gp021bdbt8
+Desktop/playerResources/ecq00m2a8k31c
+Desktop/playerResources/efgg34j4o2lk5
+Desktop/playerResources/efppeul4ootf3
+Desktop/playerResources/f16j86060vbgb
+Desktop/playerResources/f7vid455t6d15
+Desktop/playerResources/fe0555b8ioua4
+Desktop/playerResources/ff9epog9flfha
+Desktop/playerResources/fob1epl3n0d7e
+Desktop/playerResources/g2k1i7se3vkr4
+Desktop/playerResources/gkdfgo7gds2id
+Desktop/playerResources/hgmoac8m9ae6a
+Desktop/playerResources/hq7ocqcdhfdl7
+Desktop/playerResources/i8re39634joid
+Desktop/playerResources/iepn9nr4idqb9
+Desktop/playerResources/isc7hcro0tbfc
+Desktop/playerResources/keqd7t2ctos9b
+Desktop/playerResources/klq16lefdbs6d
+Desktop/playerResources/kp7ro6h9amqab
+Desktop/playerResources/l77upl50lfbof
+Desktop/playerResources/lioqe0trptfs7
+Desktop/playerResources/lo87crceuj0td
+Desktop/playerResources/mgf6qlseg3li5
+Desktop/playerResources/mghn4go8dtsl4
+Desktop/playerResources/mjq5rrtojeutd
+Desktop/playerResources/mqk7m2icsabh7
+Desktop/playerResources/mqr81lfblqdbf
+Desktop/playerResources/n0jkotppbhusf
+Desktop/playerResources/n285jq69lujqc
+Desktop/playerResources/ns19e8c7nods1
+Desktop/playerResources/o20ssjv80j7b6
+Desktop/playerResources/p43ccdqlif1e9
+Desktop/playerResources/p7211c14qc625
+Desktop/playerResources/pm4jao22glht3
+Desktop/playerResources/pslg9k3krkgv2
+Desktop/playerResources/q4trms1d3qdh2
+Desktop/playerResources/q7o2uf92imhe2
+Desktop/playerResources/q9dk3h3g5an08
+Desktop/playerResources/qeg64s0rbau20
+Desktop/playerResources/r27fnuj3983b9
+Desktop/playerResources/r2jt8bm669dte
+Desktop/playerResources/r8fve8k7p7l3a
+Desktop/playerResources/regech90p1k1d
+Desktop/playerResources/rgcgg1s1qr530
+Desktop/playerResources/rmsucsm5631b2
+Desktop/playerResources/s391icl4o4q11
+Desktop/playerResources/s4prjj60s4mn7
+Desktop/playerResources/smorh9u2a7516
+Desktop/playerResources/soteu93pi6o17
+Desktop/playerResources/tmera2v3vhf09
+Desktop/playerResources/unf09rq203nga
+Desktop/python-pypkg
+Desktop/python-pypkg/apex
+Desktop/python-pypkg/babel
+Desktop/python-pypkg/build_number
+Desktop/python-pypkg/concurrent
+Desktop/python-pypkg/CoreServices
+Desktop/python-pypkg/cryptography
+Desktop/python-pypkg/ctypes
+Desktop/python-pypkg/dateutil
+Desktop/python-pypkg/google
+Desktop/python-pypkg/importlib
+Desktop/python-pypkg/multiprocessing
+Desktop/python-pypkg/pymac
+Desktop/python-pypkg/Quartz
+Desktop/python-pypkg/sentry_sdk
+Desktop/python-pypkg/stone
+Desktop/python-pypkg/tornado
+Desktop/snapshots_backups
+Desktop/snapshots_backups/consolidation_scripts
+Documents/Application Support/com.apple.spotlight
+Documents/bruno
+Documents/com~apple~CloudDocs
+Documents/com~apple~CloudDocs 2
+Documents/com~apple~CloudDocs 2/DEVICE IDS
+Documents/com~apple~CloudDocs 2/DEVICE IDS/GRAY/Digital Editions (Gray)/Digital Editions/Manifest
+Documents/com~apple~CloudDocs/##DOCUMENTS
+Documents/com~apple~CloudDocs/Apple Account
+Documents/com~apple~CloudDocs/Apple Account/May 2026
+Documents/com~apple~CloudDocs/Apple Account/May 2026/iCloud Notes
+Documents/com~apple~CloudDocs/Apple Account/May 2026/iCloud Notes/Notes
+Documents/com~apple~CloudDocs/BA Claim
+Documents/com~apple~CloudDocs/DEVICE IDS
+Documents/com~apple~CloudDocs/DEVICE IDS/february device id
+Documents/com~apple~CloudDocs/DEVICE IDS/ipad 05 2026
+Documents/com~apple~CloudDocs/DEVICE IDS/ipad 05 2026/PocketBook (0$Spad)
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/.git
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/.git/objects
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/.github
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/alexa-london-travel-site.git
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/alexa-london-travel-site.git/.git
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/alexa-london-travel-site.git/.git/refs
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/alexa-london-travel-site.git/.git/refs/remotes
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/a-Shell mini (Lilac)/alexa-london-travel-site.git/src/LondonTravel.Site/wwwroot
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/iLovePDF (Lilac)
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/NHS App (Lilac)
+Documents/com~apple~CloudDocs/DEVICE IDS/LILAC/NHS App (Lilac)/.config
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021/Library
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021/Library/Mobile Documents
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021/Library/Mobile Documents/com~apple~CloudDocs
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021/Library/Mobile Documents/com~apple~CloudDocs/Mac MS Folder
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021/Library/Mobile Documents/com~apple~CloudDocs/Mac MS Folder/iOSSupport
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021/Library/Mobile Documents/com~apple~CloudDocs/Mac MS Folder/iOSSupport/System
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021/Library/Mobile Documents/com~apple~CloudDocs/Mac MS Folder/iOSSupport/System/Library
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021/Library/Mobile Documents/com~apple~CloudDocs/Mac MS Folder/iOSSupport/System/Library/PrivateFrameworks
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/air-too bkp may 2021/Library/Mobile Documents/com~apple~CloudDocs/Mac MS Folder/TestLibrarySystemFiles
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/Android_Google Backup/Android Data/com.amazon.kindle/files/B00M04GBS4
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/Android_Google Backup/Android Data/com.audible.application/files
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/Android_Google Backup/Android Data/com.estrongs.android.pop/cache
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/BackupPlus
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/BackupPlus/Air-too
+Documents/com~apple~CloudDocs/DEVICE IDS/Os1 may 2026/FileBrowser Edu (0$S1)/Drive/bkp/BackupPlus/Air-too/Downloads_iCloud
+Documents/com~apple~CloudDocs/DEVICE IDS/PURPLE
+Documents/com~apple~CloudDocs/Drive MB
+Documents/com~apple~CloudDocs/Drive MB/air-too bkp may 2021/Library/Mobile Documents
+Documents/com~apple~CloudDocs/Drive MB/air-too bkp may 2021/Library/Mobile Documents/com~apple~CloudDocs
+Documents/com~apple~CloudDocs/Drive MB/air-too bkp may 2021/Library/Mobile Documents/com~apple~CloudDocs/Relocated Items
+Documents/com~apple~CloudDocs/Drive MB/air-too bkp may 2021/Library/Mobile Documents/com~apple~CloudDocs/Relocated Items/Previously Relocated Items 6
+Documents/com~apple~CloudDocs/Drive MB/air-too bkp may 2021/Library/Mobile Documents/com~apple~CloudDocs/Relocated Items/Previously Relocated Items 7
+Documents/com~apple~CloudDocs/EU SAR
+Documents/com~apple~CloudDocs/Google Account
+Documents/com~apple~CloudDocs/man pages
+Documents/com~apple~CloudDocs/UK statute review
+Documents/Desktop
+Documents/Documents - may - 1
+Documents/FileRecover Project
+Documents/FileRecover Project/CloudDocs
+Documents/FileRecover Project/CloudDocs_may
+Documents/LanguageIntrospector/LanguageIntrospector
+Documents/Lenovo Desktop
+Documents/Lenovo Desktop/Desktop
+Documents/MuseScore4
+Documents/MuseScore4/Plugins
+Documents/Obsidian Vault
+Documents/Recovered Files
+Documents/RsyncUIcopy-07-16-2026:22:49
+Downloads/Apple Media Services Information Part 1 of 2
+Downloads/Apple Media Services Information Part 1 of 2/Apple_Media_Services
+Downloads/apple-online-and-retail-stores
+Downloads/Apple.com and Apple Store
+Downloads/Apple.com and Apple Store 2
+Downloads/Apple.com and Apple Store/Apple Online Store and Retail Store activity
+Downloads/Apple.com and Apple Store/Apple Online Store and Retail Store activity/Transaction History
+Downloads/AppleCare
+Downloads/AppleCare 2
+Downloads/AppleCare 2/AppleCare
+Downloads/applecare-support-activity
+Downloads/AppleCare/AppleCare
+Downloads/Drive
+Downloads/Drive/##BOOKSMB
+Downloads/Drive/##Personal Picture Library
+Downloads/Drive/##Personal Picture Library/2016
+Downloads/Drive/##Personal Picture Library/2021
+Downloads/Drive/#AI
+Downloads/Drive/#DL_APK
+Downloads/Drive/#DL_Phones
+Downloads/Drive/#DL_Phones/gk000066292862
+Downloads/Drive/#DL_Phones/iCloud Drive Part 148 of 194
+Downloads/Drive/#MOBILESYNC
+Downloads/Drive/#MOBILESYNC/Backup
+Downloads/Drive/#PHOTOS BACKUP
+Downloads/Drive/#PHOTOS BACKUP/ALBUMS
+Downloads/Drive/#PHOTOS BACKUP/Artclipboard
+Downloads/Drive/#PHOTOS BACKUP/Faves as Album (1)
+Downloads/Drive/#PHOTOS BACKUP/Favourites
+Downloads/Drive/#PHOTOS BACKUP/Japan
+Downloads/Drive/#PHOTOS BACKUP/Japan 2011 (1)
+Downloads/Drive/#PHOTOS BACKUP/NHS
+Downloads/Drive/#PHOTOS BACKUP/Shared Albums
+Downloads/Drive/#PHOTOS BACKUP/Southern Hemi (1)
+Downloads/Drive/#PHOTOS BACKUP/Summer 2019 (1)
+Downloads/Drive/#PHOTOS BACKUP/Surfing Attempt
+Downloads/Drive/#PHOTOS BACKUP/Turkey 09_08 (1)
+Downloads/Drive/A Thousand Years
+Downloads/Drive/ADMINuser
+Downloads/Drive/All Contacts
+Downloads/Drive/Amazon Sar
+Downloads/Drive/Amazon Sar/All Data Categories
+Downloads/Drive/Apple Account
+Downloads/Drive/Apple Account/May
+Downloads/Drive/AXA
+Downloads/Drive/Books
+Downloads/Drive/Books/Calibre
+Downloads/Drive/Desktop
+Downloads/Drive/Desktop/python-pypkg
+Downloads/Drive/DEVICE IDS
+Downloads/Drive/DEVICE IDS/february device id
+Downloads/Drive/DEVICE IDS/LILAC
+Downloads/Drive/Documents
+Downloads/Drive/Documents/FileRecover Project
+Downloads/Drive/Drive BAB
+Downloads/Drive/Drive BAB/*RsyncedtoUntitled
+Downloads/Drive/Drive BAB/#DOCUMENTS
+Downloads/Drive/Drive BAB/#Facebook Bkp
+Downloads/Drive/Drive BAB/#Google Photos
+Downloads/Drive/Drive BAB/All Contacts
+Downloads/Drive/Drive BAB/All Contacts from Wes Sharepoint Oct
+Downloads/Drive/Drive BAB/Stremio Torbox
+Downloads/Drive/Drive BAB/Takeout
+Downloads/Drive/Drive BAB/Takeout (1)
+Downloads/Drive/Drive BAB/Transferred Docs 2022:10:08 23:13:14 (1)
+Downloads/Drive/Drive MB
+Downloads/Drive/Drive MB/##Personal Picture Library
+Downloads/Drive/Drive MB/#Facebook Bkp
+Downloads/Drive/Dropbox in iCloud
+Downloads/Drive/Dropbox in iCloud/FIFA
+Downloads/Drive/Dropbox in iCloud/Home
+Downloads/Drive/Dropbox in iCloud/New ICA
+Downloads/Drive/Dropbox in iCloud/Taxes
+Downloads/Drive/Earlymay
+Downloads/Drive/ELLSO
+Downloads/Drive/Facebook SAR
+Downloads/Drive/facebook-rossmagoo-2026-06-16-alCN1lvG
+Downloads/Drive/facebook-rossmagoo-2026-06-16-alCN1lvG/your_facebook_activity
+Downloads/Drive/Fatca
+Downloads/Drive/Instagram SAR
+Downloads/Drive/Instagram SAR/media
+Downloads/Drive/Instagram SAR/your_instagram_activity
+Downloads/Drive/Mobile Documents
+Downloads/Drive/Mobile Documents/com~apple~CloudDocs
+Downloads/Drive/Parking and Others
+Downloads/Drive/Parking and Others/Camden PCN
+Downloads/Drive/Recovered dropbox 
+Downloads/Drive/Recovered dropbox /01. UK Immigration
+Downloads/Drive/Recovered dropbox /FIFA
+Downloads/Drive/Recovered dropbox /Home
+Downloads/Drive/Recovered dropbox /Work
+Downloads/Drive/SAR
+Downloads/Drive/Spain app
+Downloads/Drive/Spain app/SPAIN VISA MASTERFILE (DNV)
+Downloads/Drive/Strings together
+Downloads/Drive/Takeout (2)
+Downloads/Drive/Takeout (2)/Google Photos
+Downloads/Drive/Zips
+Downloads/Drive/Zips/01. UK Immigration
+Downloads/Drive/Zips/FIFA
+Downloads/Drive/Zips/Home
+Downloads/Drive/Zips/Work
+Downloads/Drive/Zips/zips2
+Downloads/Feedback Assistant activity
+Downloads/iCloud Bookmarks
+Downloads/iCloud Contacts
+Downloads/iCloud Drive/chrome policy_templates
+Downloads/iCloud Drive/chrome policy_templates/windows
+Downloads/iCloud Drive/Earlymay/System Keychains
+Downloads/iCloud Drive/Earlymay/System Keychains/Keychain
+Downloads/iCloud Drive/iCloud Photos
+Downloads/iCloud Drive/Nhs
+Downloads/iCloud Drive/Spanish immigration
+Downloads/iCloud Drive/Takeout (1)
+Downloads/iCloud Notes
+Downloads/iCloud Notes/Notes
+Downloads/iCloud Notes/Notes/To Do Shortcut
+Downloads/iCloud Notes/Recently Deleted
+Downloads/obsidian-vault
+Downloads/Orawa - Wojciech Kilar (Tokyo Scoring Strings) MIDI & Logic Session
+Downloads/Orawa - Wojciech Kilar (Tokyo Scoring Strings) MIDI & Logic Session/Orawa - Wojciech Kilar (Tokyo Scoring Strings).logicx
+Downloads/Other Data Part 5 of 6
+Downloads/Other Data Part 5 of 6/Apple Features Using iCloud
+Downloads/untitled folder
+Movies/TV
+Movies/TV/Media.localized
+Music/Music
+Music/Music/Media.localized
+Music/Music/Music Library.musiclibrary
