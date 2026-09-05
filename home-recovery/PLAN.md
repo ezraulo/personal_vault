@@ -234,3 +234,62 @@ that iCloud does not cover. Command:
 ```
 sudo ls -la /System/Volumes/Data/.fseventsd
 ```
+
+---
+
+## Goal 6 — Machine state before re-login (decided 2026-09-05)
+
+### What restores from iCloud, and what does not
+
+| Restores | Local only — lost regardless of option |
+|---|---|
+| Keychain passwords, passkeys | **TCC / privacy grants** (Full Disk Access, Screen Recording, camera/mic) |
+| **Safari autofill** (cards, contact card) | **Touch ID** — Secure Enclave enrollment, never synced |
+| Safari bookmarks, history, tabs | Login items, Dock, wallpaper |
+| Notes, Contacts, Calendar, Reminders | Third-party app settings and licences |
+| Photos, iCloud Drive, Desktop & Documents | FileVault state |
+
+Touch ID must be re-enrolled under **every** option. The user TCC database was destroyed and
+rebuilt (2026-09-05 15:41), so privacy grants are already gone. **This is neutral between the
+options** and is not a reason to keep the current home.
+
+### Lingering permission damage in `august` (from the `chmod -R ug+rwx` runs)
+
+```
+~/.claude                                            group+world writable
+~/.zsh_history                                       group writable
+~/Library/{Containers,Group Containers,Mail,Metadata,CloudStorage,Application Scripts}
+                                                     group/world writable
+~/Library/Application Support/com.apple.TCC/TCC.db   -rwxrwxr--  (should be -rw-------)
+```
+
+Containers, Group Containers and TCC.db are paths macOS is strict about. This argues against
+simply keeping the current home as the sync target.
+
+### Decision: create a fresh local admin user; sign iCloud in there
+
+- Pristine home, correct permissions, clean TCC — the same clean slate an erase provides
+- `august` survives intact as the forensic reference
+- No macOS reinstall; reversible at any point
+- Cost: reinstall tooling and re-grant privacy permissions — required under any option
+- Disk space is not a constraint: Optimize Storage keeps iCloud Drive as placeholders
+
+**Erasing the Mac is not recommended.** It buys nothing this option doesn't, costs the most, and
+destroys the only copies of `~/Documents/Terminal Saved Output.txt`, `~/fsevents-copy` and
+`~/personal_vault`. Justified only on suspicion of system-level compromise — which the fsevents
+evidence does not support.
+
+Keeping `august` as the sync target is viable but requires repairing the permissions above first.
+
+### Preserve before any of this
+
+`~/personal_vault` is committed but **unpushed**. The manifests, recovery map and this plan exist
+in one place only. Push it, or copy it to the USB drive alongside the iCloud download, together
+with `~/Documents/Terminal Saved Output.txt` and `~/fsevents-copy`.
+
+### Aside — why "only 600-700 files" left traces
+
+They did not. fsevents captured **401,013 distinct paths** under `com~apple~CloudDocs/`. The
+~707 figure is *root-level items only* (matching the ~701 in the `ls` and 746 on the web).
+The recursive `chmod`/`chflags`/`dot_clean` runs walked the whole tree, so essentially all of it
+is represented. Nothing was selectively omitted.
