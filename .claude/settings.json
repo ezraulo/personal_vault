@@ -1,0 +1,38 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/august/.local/share/uv/tools/rtfm-ai/bin/python \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/rtfm_sync.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/august/.local/share/uv/tools/rtfm-ai/bin/python \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/rtfm_stop_sync.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/august/.local/share/uv/tools/rtfm-ai/bin/python \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/rtfm_posttool_sync.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
