@@ -1,3 +1,5 @@
 # RTFM local database
 .rtfm/
 .DS_Store
+.claude/settings.local.json
+*.profraw
