@@ -1,0 +1,131 @@
+{
+  "jobIdTheme": {
+    "enabled": true,
+    "description": "High-contrast, colorblind-safe color theming for jobIds. Ensures visual distinction across all session interfaces.",
+    "mode": "color-and-style",
+    "palette": [
+      {
+        "index": 0,
+        "name": "Strong Blue",
+        "hex": "#0173B2",
+        "rgb": "rgb(1, 115, 178)",
+        "textStyle": "normal",
+        "textWeight": "normal",
+        "decoration": "none",
+        "background": false,
+        "highContrast": true,
+        "colorblindSafe": true,
+        "source": "Paul Tol (https://personal.sron.nl/~pault/colourschemes.pdf)"
+      },
+      {
+        "index": 1,
+        "name": "Bold Orange",
+        "hex": "#DE8F05",
+        "rgb": "rgb(222, 143, 5)",
+        "textStyle": "normal",
+        "textWeight": "bold",
+        "decoration": "none",
+        "background": false,
+        "highContrast": true,
+        "colorblindSafe": true,
+        "source": "Paul Tol"
+      },
+      {
+        "index": 2,
+        "name": "Italic Purple",
+        "hex": "#CC78BC",
+        "rgb": "rgb(204, 120, 188)",
+        "textStyle": "italic",
+        "textWeight": "normal",
+        "decoration": "none",
+        "background": false,
+        "highContrast": true,
+        "colorblindSafe": true,
+        "source": "Paul Tol"
+      },
+      {
+        "index": 3,
+        "name": "Underlined Green",
+        "hex": "#029E73",
+        "rgb": "rgb(2, 158, 115)",
+        "textStyle": "normal",
+        "textWeight": "normal",
+        "decoration": "underline",
+        "decorationThickness": "2px",
+        "background": false,
+        "highContrast": true,
+        "colorblindSafe": true,
+        "source": "Paul Tol"
+      },
+      {
+        "index": 4,
+        "name": "Bold Underlined Red-Orange",
+        "hex": "#D55E00",
+        "rgb": "rgb(213, 94, 0)",
+        "textStyle": "normal",
+        "textWeight": "bold",
+        "decoration": "underline",
+        "decorationThickness": "2px",
+        "background": false,
+        "highContrast": true,
+        "colorblindSafe": true,
+        "source": "Paul Tol"
+      },
+      {
+        "index": 5,
+        "name": "Inverted Light Blue",
+        "hex": "#56B4E9",
+        "rgb": "rgb(86, 180, 233)",
+        "textStyle": "normal",
+        "textWeight": "normal",
+        "decoration": "none",
+        "background": true,
+        "backgroundColor": "#56B4E9",
+        "foregroundColor": "#000000",
+        "highContrast": true,
+        "colorblindSafe": true,
+        "source": "Paul Tol"
+      }
+    ],
+    "cycleMode": "round-robin",
+    "cycleResetOnNewInstance": false,
+    "comment": "Color assignments persist per jobId across all sessions. Round-robin assignment for new jobIds.",
+    "accessibility": {
+      "colorblindSafe": true,
+      "highContrast": true,
+      "multiModal": "color + text weight/style + decoration",
+      "noRedGreenDependency": true,
+      "rationale": "Multiple visual cues (color, weight, style, decoration) ensure distinction for users with color blindness or low vision"
+    }
+  },
+  "ui": {
+    "session": {
+      "jobIdDisplay": {
+        "enabled": true,
+        "format": "[jobId: {jobId:short}]",
+        "fullLength": false,
+        "shortLength": 8,
+        "applyTheme": true,
+        "placement": "after-name",
+        "prominence": "high"
+      }
+    },
+    "listAgents": {
+      "jobIdDisplay": {
+        "enabled": true,
+        "format": "{jobId:short}",
+        "applyTheme": true,
+        "placement": "as-color-coded-badge"
+      }
+    },
+    "sessionSelector": {
+      "jobIdDisplay": {
+        "enabled": true,
+        "format": "[{jobId:short}]",
+        "applyTheme": true,
+        "groupByJobId": true,
+        "groupLabel": "Work Lineage"
+      }
+    }
+  }
+}

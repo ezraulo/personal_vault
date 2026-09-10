@@ -1,0 +1,36 @@
+{
+  "sessions": {
+    "autoRespawn": {
+      "enabled": true,
+      "minTurnsForRespawn": 20,
+      "kindWhitelist": ["interactive"],
+      "comment": "Only respawn interactive sessions with ≥20 conversation turns. Background sessions (<20 turns) terminate permanently on process death."
+    },
+    "naming": {
+      "mode": "first-name-wins",
+      "stability": {
+        "lockNameAfterCreation": true,
+        "allowUserRename": true,
+        "preventAutoRename": true,
+        "respawnInheritsSourceName": true,
+        "comment": "Session name is immutable after creation (except by explicit user action). Respawns use the same name as source."
+      },
+      "autoNaming": {
+        "enabled": true,
+        "onlyAtCreation": true,
+        "derivationMethod": "context-aware",
+        "freezeAtFirstRename": true,
+        "comment": "Auto-derive name at session creation, then freeze it. User can override once, then it stays locked."
+      }
+    },
+    "respawnTransparency": {
+      "enabled": true,
+      "logRespawnEvents": true,
+      "eventFormat": "[Session respawn] jobId: {jobId}, name: '{name}', prior sessionId: {sessionId:short}, new pid: {pid}",
+      "showRespawnInTranscript": true,
+      "temporaryStatus": "respawning",
+      "statusDurationMs": 1000,
+      "comment": "Make respawn events visible to user in logs and transcript"
+    }
+  }
+}
