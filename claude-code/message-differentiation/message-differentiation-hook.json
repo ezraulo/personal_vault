@@ -1,0 +1,80 @@
+{
+  "PostMessage": [
+    {
+      "matcher": "global",
+      "description": "Visually differentiate user input from agent output using ANSI colors, text styles, and delimiters. Works on terminal; desktop/web apps can parse metadata.",
+      "hooks": [
+        {
+          "type": "prompt",
+          "phase": "post-render",
+          "priority": 100,
+          "prompt": "A message is about to be displayed. Wrap it with visual differentiation based on role:\n\n- If from USER: prefix with a unique marker (color + style), indent differently\n- If from ASSISTANT (Claude): use a different marker (different color + style), different indent\n- Include ASCII delimiters for terminal visibility\n\nMessage role: {role}\nContent preview: {content:first-100-chars}\n\nApply styling that survives terminal scrollback and copy-paste.",
+          "transformations": {
+            "user": {
+              "prefix": "┌─ USER ─────────────────────────────────────\n",
+              "prefixColor": "33",
+              "prefixStyle": ["bold", "bright"],
+              "linePrefix": "│ ",
+              "linePrefixColor": "33",
+              "suffix": "\n└─────────────────────────────────────────────",
+              "suffixColor": "33",
+              "indent": 2,
+              "marginTop": 1,
+              "marginBottom": 1
+            },
+            "assistant": {
+              "prefix": "┌─ CLAUDE ───────────────────────────────────\n",
+              "prefixColor": "36",
+              "prefixStyle": ["bold", "bright"],
+              "linePrefix": "│ ",
+              "linePrefixColor": "36",
+              "suffix": "\n└─────────────────────────────────────────────",
+              "suffixColor": "36",
+              "indent": 2,
+              "marginTop": 1,
+              "marginBottom": 1
+            }
+          },
+          "ansiCodes": {
+            "user": {
+              "color": "33",
+              "backgroundColor": null,
+              "styles": ["bold"],
+              "reset": "0"
+            },
+            "assistant": {
+              "color": "36",
+              "backgroundColor": null,
+              "styles": ["bold"],
+              "reset": "0"
+            }
+          },
+          "fallback": "If ANSI not supported, use text-only delimiters: '>>> USER >>>' and '<<< CLAUDE <<<'",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "configuration": {
+    "colors": {
+      "user": {
+        "primary": "33",
+        "description": "Bright yellow (ANSI 33), good contrast on dark backgrounds"
+      },
+      "assistant": {
+        "primary": "36",
+        "description": "Bright cyan (ANSI 36), good contrast, distinct from user"
+      }
+    },
+    "accessibility": {
+      "colorblindSafe": true,
+      "highContrast": true,
+      "multipleVisualCues": true,
+      "rationale": "Uses color + ASCII borders + text style (bold) so users with color blindness or low vision can still distinguish input from output"
+    },
+    "terminals": {
+      "supported": ["iTerm2", "Terminal.app", "kitty", "alacritty", "gnome-terminal"],
+      "fallback": "Text-only delimiters"
+    }
+  }
+}

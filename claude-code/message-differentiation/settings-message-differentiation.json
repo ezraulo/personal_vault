@@ -1,0 +1,93 @@
+{
+  "messageDifferentiation": {
+    "enabled": true,
+    "description": "Globally differentiate user input from agent output across all interfaces",
+    "mode": "visual-delimiter",
+    "terminal": {
+      "enabled": true,
+      "useAnsiCodes": true,
+      "userMarker": {
+        "prefix": "┌─ YOU ──────────────────────────────────────┐\n",
+        "linePrefix": "│ ",
+        "suffix": "\n└─────────────────────────────────────────────┘",
+        "color": "bright-yellow",
+        "ansiCode": "33",
+        "textStyle": "bold",
+        "indent": 2
+      },
+      "agentMarker": {
+        "prefix": "┌─ CLAUDE ───────────────────────────────────┐\n",
+        "linePrefix": "│ ",
+        "suffix": "\n└─────────────────────────────────────────────┘",
+        "color": "bright-cyan",
+        "ansiCode": "36",
+        "textStyle": "bold",
+        "indent": 2
+      },
+      "fallback": {
+        "userPrefix": ">>> YOU: ",
+        "agentPrefix": "<<< CLAUDE: ",
+        "noAnsiSupport": true
+      },
+      "spacing": {
+        "marginTop": "1 line",
+        "marginBottom": "1 line"
+      }
+    },
+    "desktopApp": {
+      "enabled": true,
+      "userStyle": {
+        "backgroundColor": "rgba(255, 200, 0, 0.1)",
+        "borderLeft": "3px solid #FFC800",
+        "textColor": "#FFAA00",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "prefix": "YOU",
+        "prefixColor": "#FFAA00",
+        "prefixBackground": "rgba(255, 200, 0, 0.2)"
+      },
+      "agentStyle": {
+        "backgroundColor": "rgba(0, 200, 255, 0.1)",
+        "borderLeft": "3px solid #00C8FF",
+        "textColor": "inherit",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "prefix": "CLAUDE",
+        "prefixColor": "#00C8FF",
+        "prefixBackground": "rgba(0, 200, 255, 0.2)"
+      },
+      "padding": "0.5em left"
+    },
+    "webInterface": {
+      "enabled": true,
+      "userClass": "message-user-input",
+      "agentClass": "message-agent-output",
+      "cssVariables": {
+        "--user-color": "#FFAA00",
+        "--user-background": "rgba(255, 200, 0, 0.1)",
+        "--user-border": "3px solid #FFC800",
+        "--agent-color": "inherit",
+        "--agent-background": "rgba(0, 200, 255, 0.1)",
+        "--agent-border": "3px solid #00C8FF"
+      }
+    },
+    "copypaste": {
+      "preserveFormatting": true,
+      "includeDelimiters": true,
+      "stripAnsiOnCopy": false,
+      "comment": "Delimiters and formatting are included in copied text so context is clear even outside the app"
+    },
+    "scrollback": {
+      "persistentFormatting": true,
+      "visibleThroughoutScroll": true,
+      "comment": "Markers remain visible and clear when scrolling back through terminal or app history"
+    },
+    "accessibility": {
+      "colorblindSafe": true,
+      "multipleVisualCues": true,
+      "cues": ["color", "border", "text prefix", "indentation"],
+      "contrast": "high",
+      "rationale": "Multiple cues ensure distinction for users with color blindness, low vision, or cognitive processing differences"
+    }
+  }
+}
